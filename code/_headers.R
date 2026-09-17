@@ -1,8 +1,12 @@
 # Install missing packages and load necessary packages
-options(repos = c(CRAN = "http://cran.us.r-project.org"))
-install.packages("xfun")
-xfun::pkg_attach2(required_packages, message = FALSE)
+rspm::enable()
+.libPaths("/home/rstudio-user/R/x86_64-pc-linux-gnu-library/4.4")
+message("R library paths: ", .libPaths()[1], "\n")
 
+if (!"xfun" %in% installed.packages()) {
+  install.packages("xfun")
+}
+xfun::pkg_attach2(required_packages, message = FALSE)
 
 # Universal safe file reading function
 safe_read_file_param <- function(fpath, read_fn, ..., required = FALSE) {
@@ -25,14 +29,13 @@ safe_read_file_param <- function(fpath, read_fn, ..., required = FALSE) {
   }
 }
 
-
 # Functions for message logging
 info_msg <- function(msg, ...) {
   message("[", Sys.time(), "] ", "(INFO) ", msg, ...)
 }
 
 warn_msg <- function(msg, ...) {
-  warning("[", Sys.time(), "] ", "(WARN) ", msg, ...)
+  message("[", Sys.time(), "] ", "(WARN) ", msg, ...)
 }
 
 
