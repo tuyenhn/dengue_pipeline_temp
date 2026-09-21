@@ -1,0 +1,31 @@
+WARNING: ignoring environment value of R_HOME
+Tracing function "install.packages" in package "utils"
+Tracing function "update.packages" in package "utils"
+R library paths: /home/rstudio-user/R/x86_64-pc-linux-gnu-library/4.4
+
+Warning messages:
+1: package ‘optparse’ was built under R version 4.4.0 
+2: package ‘dplyr’ was built under R version 4.4.0 
+3: package ‘lubridate’ was built under R version 4.4.0 
+4: package ‘tidyr’ was built under R version 4.4.0 
+5: package ‘readr’ was built under R version 4.4.0 
+6: package ‘ape’ was built under R version 4.4.0 
+7: package ‘seqinr’ was built under R version 4.4.0 
+8: package ‘stringr’ was built under R version 4.4.0 
+Warning message:
+One or more parsing issues, call `problems()` on your data frame for details,
+e.g.:
+  dat <- vroom(...)
+  problems(dat) 
+[2025-10-27 03:51:10] (WARN) Warnings when reading file
+# A tibble: 7 × 5
+    row   col expected           actual     file                                
+  <int> <int> <chr>              <chr>      <chr>                               
+1  5081    62 1/0/T/F/TRUE/FALSE M:15,pr:15 /home/rstudio-user/dengue_pipeline_…
+2  5084    62 1/0/T/F/TRUE/FALSE M:15,pr:15 /home/rstudio-user/dengue_pipeline_…
+3  5284    62 1/0/T/F/TRUE/FALSE E:61       /home/rstudio-user/dengue_pipeline_…
+4  5689    62 1/0/T/F/TRUE/FALSE NS4A:46    /home/rstudio-user/dengue_pipeline_…
+5  6636    62 1/0/T/F/TRUE/FALSE C:44,C:66  /home/rstudio-user/dengue_pipeline_…
+6  6637    62 1/0/T/F/TRUE/FALSE C:44,C:66  /home/rstudio-user/dengue_pipeline_…
+7  6638    62 1/0/T/F/TRUE/FALSE C:44,C:66  /home/rstudio-user/dengue_pipeline_…
+[2025-10-27 03:51:12] (INFO) Adding serotype information completed

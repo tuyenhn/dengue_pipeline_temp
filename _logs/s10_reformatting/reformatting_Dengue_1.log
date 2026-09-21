@@ -1,0 +1,7 @@
+WARNING: ignoring environment value of R_HOME
+Tracing function "install.packages" in package "utils"
+Tracing function "update.packages" in package "utils"
+R library paths: /home/rstudio-user/R/x86_64-pc-linux-gnu-library/4.4
+
+There were 13 warnings (use warnings() to see them)
+[2025-10-27 03:55:06] (INFO) Cleaning for Dengue_1 completed

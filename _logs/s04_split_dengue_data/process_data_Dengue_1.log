@@ -1,0 +1,26 @@
+WARNING: ignoring environment value of R_HOME
+Tracing function "install.packages" in package "utils"
+Tracing function "update.packages" in package "utils"
+R library paths: /home/rstudio-user/R/x86_64-pc-linux-gnu-library/4.4
+
+Warning messages:
+1: package ‘optparse’ was built under R version 4.4.0 
+2: package ‘dplyr’ was built under R version 4.4.0 
+3: package ‘lubridate’ was built under R version 4.4.0 
+4: package ‘tidyr’ was built under R version 4.4.0 
+5: package ‘readr’ was built under R version 4.4.0 
+6: package ‘ape’ was built under R version 4.4.0 
+7: package ‘seqinr’ was built under R version 4.4.0 
+8: package ‘purrr’ was built under R version 4.4.0 
+9: package ‘stringr’ was built under R version 4.4.0 
+[2025-10-27 03:46:51] (INFO) Serotype table:
+# A tibble: 4 × 2
+  Serotype                n
+  <chr>               <int>
+1 Dengue_1            15735
+2 Dengue_2             8075
+3 dengue_virus_type_3   858
+4 dengue_virus_type_4   547
+[2025-10-27 03:47:35] (INFO) Sequences converted to `tidyverse` style
+[2025-10-27 03:47:36] (INFO) Sequences renamed and converted back to `seqinr`'s format
+[2025-10-27 03:48:14] (INFO) Processing completed for Dengue_1

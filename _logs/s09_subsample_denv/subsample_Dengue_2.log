@@ -1,0 +1,27 @@
+WARNING: ignoring environment value of R_HOME
+Tracing function "install.packages" in package "utils"
+Tracing function "update.packages" in package "utils"
+R library paths: /home/rstudio-user/R/x86_64-pc-linux-gnu-library/4.4
+
+There were 14 warnings (use warnings() to see them)
+[2025-10-27 03:52:06] (WARN) Some identifiers in the metadata did not match the FASTA file. They have been removed.
+
+[2025-10-27 03:52:06] (INFO) Column of interest: Country
+[2025-10-27 03:52:06] (INFO) Values of interest: Viet_Nam, Vietnam, 
+Saving 7 x 7 in image
+[2025-10-27 03:52:07] (INFO) All local sequences are used; 627 sequences of `Dengue_2`.
+Saving 7 x 7 in image
+`summarise()` has grouped output by 'Year'. You can override using the
+`.groups` argument.
+Saving 7 x 7 in image
+`summarise()` has grouped output by 'Year'. You can override using the
+`.groups` argument.
+Saving 7 x 7 in image
+ [1] "GenBank_ID"    "Country"       "State"         "City"         
+ [5] "Serotype"      "Date"          "Decimal_Date"  "Source"       
+ [9] "Sequence_name" "genotype"      "Year"          "Month"        
+[13] "Week"          "Continent"     "weights"      
+ [1] "GenBank_ID"    "Country"       "State"         "City"         
+ [5] "Serotype"      "Date"          "Decimal_Date"  "Source"       
+ [9] "Sequence_name" "genotype"      "Year"          "Month"        
+[13] "Week"          "Continent"     "weights"      

@@ -1,0 +1,16 @@
+WARNING: ignoring environment value of R_HOME
+Tracing function "install.packages" in package "utils"
+Tracing function "update.packages" in package "utils"
+R library paths: /home/rstudio-user/R/x86_64-pc-linux-gnu-library/4.4
+
+Warning messages:
+1: package ‘dplyr’ was built under R version 4.4.0 
+2: package ‘lubridate’ was built under R version 4.4.0 
+3: package ‘tidyr’ was built under R version 4.4.0 
+4: package ‘optparse’ was built under R version 4.4.0 
+5: package ‘ape’ was built under R version 4.4.0 
+6: package ‘seqinr’ was built under R version 4.4.0 
+7: package ‘readr’ was built under R version 4.4.0 
+[2025-10-27 03:49:08] (INFO) Running with `WG_threshold`=0.31 and `EG_threshold`=0.31
+[2025-10-27 03:50:15] (INFO) Number of good WG sequences for `Dengue_1`: 3460
+[2025-10-27 03:54:26] (INFO) Processing for Dengue serotype `Dengue_1` completed

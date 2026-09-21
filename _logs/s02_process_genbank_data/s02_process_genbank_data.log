@@ -1,0 +1,74 @@
+WARNING: ignoring environment value of R_HOME
+Tracing function "install.packages" in package "utils"
+Tracing function "update.packages" in package "utils"
+R library paths: /home/rstudio-user/R/x86_64-pc-linux-gnu-library/4.4
+
+There were 11 warnings (use warnings() to see them)
+# A tibble: 0 × 5
+# ℹ 5 variables: row <int>, col <int>, expected <chr>, actual <chr>, file <chr>
+[2025-10-27 03:42:25] (INFO) `metadata_df` columns: 
+ [1] "Accession"                          "BioProjects"                       
+ [3] "BioSample accession"                "Completeness"                      
+ [5] "Gene count"                         "Geographic Location"               
+ [7] "Geographic Region"                  "Host Common Name"                  
+ [9] "Host Infraspecific Names Breed"     "Host Infraspecific Names Cultivar" 
+[11] "Host Infraspecific Names Ecotype"   "Host Infraspecific Names Isolate"  
+[13] "Host Infraspecific Names Sex"       "Host Infraspecific Names Strain"   
+[15] "Host Name"                          "Host Pangolin Classification"      
+[17] "Host Taxonomic ID"                  "Is Annotated"                      
+[19] "Is Complete"                        "Is Lab Host"                       
+[21] "Is Vaccine Strain"                  "Isolate Collection date"           
+[23] "Isolate Lineage"                    "Isolate Lineage source"            
+[25] "Lab Host"                           "Length"                            
+[27] "Mature peptide count"               "Molecule type"                     
+[29] "Nucleotide completeness"            "Protein count"                     
+[31] "Purpose of Sampling"                "Release date"                      
+[33] "Source database"                    "SRA Accessions"                    
+[35] "Submitter Affiliation"              "Submitter Country"                 
+[37] "Submitter Names"                    "Update date"                       
+[39] "Virus Common Name"                  "Virus Infraspecific Names Breed"   
+[41] "Virus Infraspecific Names Cultivar" "Virus Infraspecific Names Ecotype" 
+[43] "Virus Infraspecific Names Isolate"  "Virus Infraspecific Names Sex"     
+[45] "Virus Infraspecific Names Strain"   "Virus Name"                        
+[47] "Virus Pangolin Classification"      "Virus Taxonomic ID"                
+[49] "source"                            
+[2025-10-27 03:42:25] (INFO) `extra_metadata` columns: 
+ [1] "Accession"                          "BioProjects"                       
+ [3] "BioSample accession"                "Completeness"                      
+ [5] "Gene count"                         "Geographic Location"               
+ [7] "Geographic Region"                  "Host Common Name"                  
+ [9] "Host Infraspecific Names Breed"     "Host Infraspecific Names Cultivar" 
+[11] "Host Infraspecific Names Ecotype"   "Host Infraspecific Names Isolate"  
+[13] "Host Infraspecific Names Sex"       "Host Infraspecific Names Strain"   
+[15] "Host Name"                          "Host Pangolin Classification"      
+[17] "Host Taxonomic ID"                  "Is Annotated"                      
+[19] "Is Complete"                        "Is Lab Host"                       
+[21] "Is Vaccine Strain"                  "Isolate Collection date"           
+[23] "Isolate Lineage"                    "Isolate Lineage source"            
+[25] "Lab Host"                           "Length"                            
+[27] "Mature peptide count"               "Molecule type"                     
+[29] "Nucleotide completeness"            "Protein count"                     
+[31] "Purpose of Sampling"                "Release date"                      
+[33] "Source database"                    "SRA Accessions"                    
+[35] "Submitter Affiliation"              "Submitter Country"                 
+[37] "Submitter Names"                    "Update date"                       
+[39] "Virus Common Name"                  "Virus Infraspecific Names Breed"   
+[41] "Virus Infraspecific Names Cultivar" "Virus Infraspecific Names Ecotype" 
+[43] "Virus Infraspecific Names Isolate"  "Virus Infraspecific Names Sex"     
+[45] "Virus Infraspecific Names Strain"   "Virus Name"                        
+[47] "Virus Pangolin Classification"      "Virus Taxonomic ID"                
+[49] "source"                            
+Warning message:
+There were 3584 warnings in `mutate()`.
+The first warning was:
+ℹ In argument: `Date = as.Date(anytime(`Isolate Collection date`))`.
+Caused by warning in `anytime_cpp()`:
+! Input conversion resulted in 'NA' results.
+ℹ Run `dplyr::last_dplyr_warnings()` to see the 3583 remaining warnings. 
+[2025-10-27 03:42:27] (INFO) Extra metadata included
+[2025-10-27 03:43:00] (INFO) Extra fasta sequences are included
+[2025-10-27 03:43:02] (INFO) Metadata df subsetted and new sequence names built
+[2025-10-27 03:43:02] (INFO) Fasta sequences subsetted
+[2025-10-27 03:44:39] (INFO) Sequences converted to `tidyverse` style
+[2025-10-27 03:44:39] (INFO) Sequences renamed and converted back to `seqinr`'s format
+[2025-10-27 03:45:53] (INFO) Processing metadata and sequences completed

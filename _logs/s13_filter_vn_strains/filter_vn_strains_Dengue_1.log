@@ -1,0 +1,23 @@
+Tracing function "install.packages" in package "utils"
+Tracing function "update.packages" in package "utils"
+R library paths: /home/rstudio-user/R/x86_64-pc-linux-gnu-library/4.4
+
+Warning messages:
+1: package ‘tidyverse’ was built under R version 4.4.0 
+2: package ‘tibble’ was built under R version 4.4.0 
+3: package ‘tidyr’ was built under R version 4.4.0 
+4: package ‘readr’ was built under R version 4.4.0 
+5: package ‘purrr’ was built under R version 4.4.0 
+6: package ‘dplyr’ was built under R version 4.4.0 
+7: package ‘stringr’ was built under R version 4.4.0 
+8: package ‘lubridate’ was built under R version 4.4.0 
+9: package ‘optparse’ was built under R version 4.4.0 
+Rows: 500 Columns: 15
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: ","
+chr  (9): GenBank_ID, Country, State, City, Serotype, Source, Sequence_name,...
+dbl  (5): Decimal_Date, Year, Month, Week, weights
+date (1): Date
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.

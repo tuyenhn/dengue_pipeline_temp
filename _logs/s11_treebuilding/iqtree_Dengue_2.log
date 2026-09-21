@@ -1,0 +1,1248 @@
+IQ-TREE multicore version 2.2.6 COVID-edition for Linux 64-bit built Dec  8 2023
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams, Ly Trong Nhan.
+
+Host:    dengue-vitt (AVX2, FMA3, 29 GB RAM)
+Command: iqtree2 -nt AUTO -s _results/s10_reformatting/subsampled_Dengue_2_cleaned.fasta -m GTR+I+G4 -pre _results/s11_treebuilding/subsampled_Dengue_2_cleaned -redo
+Seed:    38516 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Mon Oct 27 03:53:00 2025
+Kernel:  AVX+FMA - auto-detect threads (10 CPU cores detected)
+
+Reading alignment file _results/s10_reformatting/subsampled_Dengue_2_cleaned.fasta ... Fasta format detected
+Reading fasta file: done in 0.42349 secs using 42.39% CPU
+Alignment most likely contains DNA/RNA sequences
+Constructing alignment: done in 0.247418 secs using 35.23% CPU
+Alignment has 777 sequences with 10173 columns, 5697 distinct patterns
+3809 parsimony-informative, 838 singleton sites, 5526 constant sites
+                                                                                 Gap/Ambiguity  Composition  p-value
+Analyzing sequences: done in 0.158876 secs using 47.51% CPU
+   1  PQ357516_1_Cambodia_NA_NA_Dengue_2_2018_10_27_2018_81917808219                     0.00%    passed     99.31%
+   2  PP586196_1_Thailand_NA_NA_Dengue_2_2022_12_28_2022_98904109589                     0.00%    passed     96.95%
+   3  PQ357521_1_Thailand_NA_NA_Dengue_2_2023_10_13_2023_78082191781                     0.00%    passed     87.33%
+   4  PQ357519_1_Thailand_NA_NA_Dengue_2_2023_06_30_2023_49315068493                     0.00%    passed     99.98%
+   5  PQ465587_1_Malaysia_Selangor_NA_Dengue_2_2015_12_01_2015_91506849315               0.00%    passed     94.18%
+   6  PQ357520_1_Malaysia_NA_NA_Dengue_2_2023_07_26_2023_56438356164                     0.00%    passed     99.65%
+   7  PP757873_1_India_NA_NA_Dengue_2_2023_08_17_2023_62465753425                        0.00%    passed     99.74%
+   8  PP757870_1_India_NA_NA_Dengue_2_2023_06_22_2023_47123287671                        0.00%    passed     99.95%
+   9  PP406449_1_Cambodia_NA_NA_Dengue_2_2022_05_23_2022_38904109589                     0.00%    passed     99.17%
+  10  PP470600_1_Cambodia_NA_NA_Dengue_2_2022_07_01_2022_49589041096                     0.02%    passed     99.81%
+  11  PP563772_1_Thailand_NA_NA_Dengue_2_2023_08_03_2023_58630136986                     0.00%    passed     97.47%
+  12  PP269825_1_Viet_Nam_NA_NA_Dengue_2_2013_02_21_2013_1397260274                     18.41%    passed     95.53%
+  13  PP269826_1_Viet_Nam_NA_NA_Dengue_2_2012_02_22_2012_14246575342                    18.79%    passed     95.71%
+  14  PP269823_1_Viet_Nam_NA_NA_Dengue_2_2012_05_16_2012_3698630137                     27.05%    passed     93.26%
+  15  PP269827_1_Viet_Nam_NA_NA_Dengue_2_2012_05_24_2012_39178082192                     2.64%    passed     99.06%
+  16  PP269828_1_Viet_Nam_NA_NA_Dengue_2_2013_07_31_2013_57808219178                     6.88%    passed     99.06%
+  17  PP269829_1_Viet_Nam_NA_NA_Dengue_2_2013_05_09_2013_35068493151                     5.16%    passed     96.17%
+  18  PP269822_1_Viet_Nam_NA_NA_Dengue_2_2011_08_24_2011_64383561644                    11.97%    passed     94.21%
+  19  PP269834_1_Viet_Nam_NA_NA_Dengue_2_2013_01_09_2013_02191780822                    24.49%    passed     97.19%
+  20  PP269824_1_Viet_Nam_NA_NA_Dengue_2_2012_06_26_2012_48219178082                    13.05%    passed     97.50%
+  21  PP269832_1_Viet_Nam_NA_NA_Dengue_2_2012_07_12_2012_52602739726                    21.48%    passed     87.82%
+  22  PP269833_1_Viet_Nam_NA_NA_Dengue_2_2012_11_20_2012_88493150685                     9.76%    passed     97.45%
+  23  PP269831_1_Viet_Nam_NA_NA_Dengue_2_2012_03_30_2012_24109589041                    30.08%    passed     95.39%
+  24  PP269835_1_Viet_Nam_NA_NA_Dengue_2_2012_01_31_2012_08219178082                    15.36%    passed     98.90%
+  25  PP269836_1_Viet_Nam_NA_NA_Dengue_2_2015_08_26_2015_64931506849                     9.27%    passed     96.98%
+  26  PP269837_1_Viet_Nam_NA_NA_Dengue_2_2015_10_09_2015_7698630137                     31.50%    passed     76.03%
+  27  PP269830_1_Viet_Nam_NA_NA_Dengue_2_2014_10_30_2014_82739726027                     1.83%    passed     98.76%
+  28  PP269838_1_Viet_Nam_NA_NA_Dengue_2_2012_01_04_2012_00821917808                    20.66%    passed     62.61%
+  29  PP269841_1_Viet_Nam_NA_NA_Dengue_2_2012_05_31_2012_41095890411                     3.99%    passed     97.96%
+  30  PP269840_1_Viet_Nam_NA_NA_Dengue_2_2012_03_15_2012_2                               3.64%    passed     98.13%
+  31  PP269844_1_Viet_Nam_NA_NA_Dengue_2_2013_09_09_2013_68767123288                    10.07%    passed     98.58%
+  32  PP269843_1_Viet_Nam_NA_NA_Dengue_2_2012_12_06_2012_92876712329                     2.18%    passed     99.92%
+  33  PP269842_1_Viet_Nam_NA_NA_Dengue_2_2012_06_07_2012_4301369863                     19.70%    passed     65.33%
+  34  PP269846_1_Viet_Nam_NA_NA_Dengue_2_2011_10_31_2011_8301369863                      5.55%    passed     99.39%
+  35  PP269845_1_Viet_Nam_NA_NA_Dengue_2_2015_06_09_2015_43561643836                     6.29%    passed     98.29%
+  36  PP269849_1_Viet_Nam_NA_NA_Dengue_2_2012_06_06_2012_42739726027                     4.07%    passed     97.86%
+  37  PP269852_1_Viet_Nam_NA_NA_Dengue_2_2013_09_29_2013_74246575342                     5.49%    passed     98.81%
+  38  PP269850_1_Viet_Nam_NA_NA_Dengue_2_2012_12_05_2012_92602739726                    14.58%    passed     94.07%
+  39  PP269848_1_Viet_Nam_NA_NA_Dengue_2_2012_03_06_2012_17534246575                    13.12%    passed     99.74%
+  40  PP269851_1_Viet_Nam_NA_NA_Dengue_2_2013_03_28_2013_23561643836                    12.19%    passed     97.80%
+  41  PP269847_1_Viet_Nam_NA_NA_Dengue_2_2011_11_08_2011_85205479452                     7.30%    passed     98.49%
+  42  PP269853_1_Viet_Nam_NA_NA_Dengue_2_2013_10_21_2013_80273972603                    10.07%    passed     99.49%
+  43  PP269839_1_Viet_Nam_NA_NA_Dengue_2_2012_02_08_2012_10410958904                     2.86%    passed     99.70%
+  44  PP269856_1_Viet_Nam_NA_NA_Dengue_2_2014_11_03_2014_83835616438                     3.41%    passed     98.98%
+  45  PP269857_1_Viet_Nam_NA_NA_Dengue_2_2014_11_05_2014_84383561644                     3.61%    passed     98.79%
+  46  PP269860_1_Viet_Nam_NA_NA_Dengue_2_2013_07_17_2013_5397260274                      0.11%    passed     99.66%
+  47  PP269859_1_Viet_Nam_NA_NA_Dengue_2_2014_11_30_2014_91232876712                    14.64%    passed     83.93%
+  48  PP269854_1_Viet_Nam_NA_NA_Dengue_2_2013_10_22_2013_80547945205                    29.87%    passed     78.20%
+  49  PP269858_1_Viet_Nam_NA_NA_Dengue_2_2014_11_07_2014_84931506849                     9.22%    passed     98.16%
+  50  PP269867_1_Viet_Nam_NA_NA_Dengue_2_2013_10_11_2013_77534246575                     3.32%    passed     99.84%
+  51  PP269855_1_Viet_Nam_NA_NA_Dengue_2_2014_10_29_2014_82465753425                    15.19%    passed     92.11%
+  52  PP269865_1_Viet_Nam_NA_NA_Dengue_2_2014_11_26_2014_90136986301                     2.19%    passed     98.24%
+  53  PP269866_1_Viet_Nam_NA_NA_Dengue_2_2013_08_13_2013_61369863014                     1.41%    passed     98.32%
+  54  PP269861_1_Viet_Nam_NA_NA_Dengue_2_2013_08_05_2013_59178082192                     0.10%    passed     98.96%
+  55  PP269863_1_Viet_Nam_NA_NA_Dengue_2_2014_09_22_2014_72328767123                     4.34%    passed     99.86%
+  56  PP269868_1_Viet_Nam_NA_NA_Dengue_2_2013_11_19_2013_88219178082                     2.16%    passed     99.10%
+  57  PP269864_1_Viet_Nam_NA_NA_Dengue_2_2014_10_09_2014_7698630137                      1.68%    passed     98.78%
+  58  PP269862_1_Viet_Nam_NA_NA_Dengue_2_2013_12_02_2013_91780821918                     0.11%    passed     99.79%
+  59  PP269871_1_Viet_Nam_NA_NA_Dengue_2_2012_09_27_2012_73698630137                     0.39%    passed     99.53%
+  60  PP269875_1_Viet_Nam_NA_NA_Dengue_2_2019_04_02_2019_24931506849                    22.11%    passed     85.91%
+  61  PP269877_1_Viet_Nam_NA_NA_Dengue_2_2019_05_27_2019_4                              20.04%    passed     99.79%
+  62  PP269874_1_Viet_Nam_NA_NA_Dengue_2_2019_02_11_2019_11232876712                     4.89%    passed     99.73%
+  63  PP269876_1_Viet_Nam_NA_NA_Dengue_2_2019_05_04_2019_33698630137                     3.11%    passed     95.98%
+  64  PP269873_1_Viet_Nam_NA_NA_Dengue_2_2018_11_22_2018_8904109589                     21.07%    passed     99.66%
+  65  PP269869_1_Viet_Nam_NA_NA_Dengue_2_2012_09_13_2012_69863013699                    26.42%    passed     97.17%
+  66  PP269878_1_Viet_Nam_NA_NA_Dengue_2_2019_06_12_2019_44383561644                    29.69%    passed     82.29%
+  67  PP269872_1_Viet_Nam_NA_NA_Dengue_2_2013_11_14_2013_86849315069                    18.75%    passed     95.80%
+  68  PP269881_1_Viet_Nam_NA_NA_Dengue_2_2019_08_05_2019_59178082192                    20.30%    passed     97.31%
+  69  PP269882_1_Viet_Nam_NA_NA_Dengue_2_2019_08_06_2019_59452054795                     9.67%    passed     97.63%
+  70  PP269879_1_Viet_Nam_NA_NA_Dengue_2_2019_07_16_2019_53698630137                    30.22%    passed     56.61%
+  71  PP269884_1_Viet_Nam_NA_NA_Dengue_2_2019_08_19_2019_6301369863                     16.02%    passed     93.78%
+  72  PP269887_1_Viet_Nam_NA_NA_Dengue_2_2019_10_11_2019_77534246575                    25.07%    passed     95.44%
+  73  PP269886_1_Viet_Nam_NA_NA_Dengue_2_2019_10_09_2019_7698630137                     25.52%    passed     95.86%
+  74  PP269885_1_Viet_Nam_NA_NA_Dengue_2_2019_08_20_2019_63287671233                    18.02%    passed     83.57%
+  75  PP269888_1_Viet_Nam_NA_NA_Dengue_2_2019_10_21_2019_80273972603                     2.18%    passed     99.55%
+  76  PP269889_1_Viet_Nam_NA_NA_Dengue_2_2019_11_11_2019_8602739726                     17.04%    passed     95.15%
+  77  PP269880_1_Viet_Nam_NA_NA_Dengue_2_2019_08_03_2019_58630136986                     2.61%    passed     95.74%
+  78  PP269894_1_Viet_Nam_NA_NA_Dengue_2_2019_09_10_2019_6904109589                     22.82%    passed     93.58%
+  79  PP269890_1_Viet_Nam_NA_NA_Dengue_2_2020_05_12_2020_35890410959                    19.42%    passed     95.28%
+  80  PP269891_1_Viet_Nam_NA_NA_Dengue_2_2020_11_13_2020_86575342466                    19.41%    passed     89.99%
+  81  PP269893_1_Viet_Nam_NA_NA_Dengue_2_2019_07_30_2019_57534246575                     4.23%    passed     99.81%
+  82  PP269883_1_Viet_Nam_NA_NA_Dengue_2_2019_08_13_2019_61369863014                     3.80%    passed     99.39%
+  83  PP269895_1_Viet_Nam_NA_NA_Dengue_2_2019_10_07_2019_76438356164                     2.19%    passed     98.39%
+  84  PP269896_1_Viet_Nam_NA_NA_Dengue_2_2019_10_11_2019_77534246575                     5.16%    passed     99.95%
+  85  PP269898_1_Viet_Nam_NA_NA_Dengue_2_2019_10_25_2019_81369863014                    24.71%    passed     87.63%
+  86  PP269892_1_Viet_Nam_NA_NA_Dengue_2_2019_07_26_2019_56438356164                     6.38%    passed     99.98%
+  87  PP269897_1_Viet_Nam_NA_NA_Dengue_2_2019_10_15_2019_78630136986                    14.12%    passed     97.81%
+  88  PP269900_1_Viet_Nam_NA_NA_Dengue_2_2019_12_05_2019_92602739726                    20.27%    passed     98.72%
+  89  PP269899_1_Viet_Nam_NA_NA_Dengue_2_2019_10_31_2019_8301369863                     21.69%    passed     62.60%
+  90  PP269901_1_Viet_Nam_NA_NA_Dengue_2_2019_12_20_2019_96712328767                     4.63%    passed     99.29%
+  91  PP269903_1_Viet_Nam_NA_NA_Dengue_2_2022_06_21_2022_46849315068                     1.04%    passed     99.56%
+  92  PP269902_1_Viet_Nam_NA_NA_Dengue_2_2022_06_02_2022_41643835616                     0.10%    passed     99.32%
+  93  PP269906_1_Viet_Nam_NA_NA_Dengue_2_2022_08_09_2022_60273972603                     0.09%    passed     98.84%
+  94  PP269905_1_Viet_Nam_NA_NA_Dengue_2_2022_08_01_2022_58082191781                     1.98%    passed     99.66%
+  95  PP269904_1_Viet_Nam_NA_NA_Dengue_2_2022_06_28_2022_48767123288                     1.92%    passed     99.18%
+  96  PP269911_1_Viet_Nam_NA_NA_Dengue_2_2022_12_21_2022_9698630137                      0.07%    passed     99.72%
+  97  PP269909_1_Viet_Nam_NA_NA_Dengue_2_2022_12_01_2022_91506849315                     0.10%    passed     99.67%
+  98  PP269913_1_Viet_Nam_NA_NA_Dengue_2_2022_06_08_2022_43287671233                     3.19%    passed     99.64%
+  99  PP269910_1_Viet_Nam_NA_NA_Dengue_2_2022_12_02_2022_91780821918                     2.57%    passed     89.60%
+ 100  PP269914_1_Viet_Nam_NA_NA_Dengue_2_2022_06_29_2022_4904109589                     18.74%    passed     98.81%
+ 101  PP269915_1_Viet_Nam_NA_NA_Dengue_2_2022_08_12_2022_61095890411                     2.05%    passed     98.46%
+ 102  PP269907_1_Viet_Nam_NA_NA_Dengue_2_2022_10_10_2022_77260273973                     0.09%    passed     99.43%
+ 103  PP269912_1_Viet_Nam_NA_NA_Dengue_2_2023_02_02_2023_08767123288                     1.94%    passed     98.66%
+ 104  PP269908_1_Viet_Nam_NA_NA_Dengue_2_2022_10_11_2022_77534246575                     0.10%    passed     99.46%
+ 105  PP269919_1_Viet_Nam_NA_NA_Dengue_2_2022_12_01_2022_91506849315                     0.08%    passed     98.05%
+ 106  PP269917_1_Viet_Nam_NA_NA_Dengue_2_2022_11_25_2022_89863013699                     9.32%    passed     76.43%
+ 107  PP269920_1_Viet_Nam_NA_NA_Dengue_2_2023_02_06_2023_09863013699                     0.37%    passed     99.00%
+ 108  PP269918_1_Viet_Nam_NA_NA_Dengue_2_2022_06_20_2022_46575342466                     0.10%    passed     99.78%
+ 109  PP269924_1_Viet_Nam_NA_NA_Dengue_2_2015_12_01_2015_91506849315                     6.45%    passed     97.75%
+ 110  PP269922_1_Viet_Nam_NA_NA_Dengue_2_2015_09_07_2015_68219178082                     0.29%    passed     99.84%
+ 111  PP269921_1_Viet_Nam_NA_NA_Dengue_2_2022_10_10_2022_77260273973                     0.12%    passed     99.78%
+ 112  PP269916_1_Viet_Nam_NA_NA_Dengue_2_2022_08_12_2022_61095890411                     0.59%    passed     99.96%
+ 113  PP269926_1_Viet_Nam_NA_NA_Dengue_2_2016_12_09_2016_93698630137                    11.92%    passed     92.98%
+ 114  PP269929_1_Viet_Nam_NA_NA_Dengue_2_2017_01_04_2017_00821917808                    11.19%    passed     99.96%
+ 115  PP269927_1_Viet_Nam_NA_NA_Dengue_2_2016_12_22_2016_97260273973                    10.07%    passed     94.41%
+ 116  PP269928_1_Viet_Nam_NA_NA_Dengue_2_2017_01_03_2017_00547945205                    24.77%    passed     57.26%
+ 117  PP269931_1_Viet_Nam_NA_NA_Dengue_2_2017_04_13_2017_27945205479                    17.63%    passed     89.29%
+ 118  PP269923_1_Viet_Nam_NA_NA_Dengue_2_2015_11_23_2015_89315068493                    13.01%    passed     91.67%
+ 119  PP269932_1_Viet_Nam_NA_NA_Dengue_2_2017_05_08_2017_34794520548                    23.61%    passed     86.28%
+ 120  PP269925_1_Viet_Nam_NA_NA_Dengue_2_2016_10_25_2016_81369863014                     1.51%    passed     96.32%
+ 121  PP269930_1_Viet_Nam_NA_NA_Dengue_2_2017_04_12_2017_27671232877                     8.94%    passed     91.97%
+ 122  PP269935_1_Viet_Nam_NA_NA_Dengue_2_2017_08_25_2017_64657534247                    28.64%    passed     86.92%
+ 123  PP269937_1_Viet_Nam_NA_NA_Dengue_2_2018_01_30_2018_07945205479                    19.71%    passed     83.34%
+ 124  PP269936_1_Viet_Nam_NA_NA_Dengue_2_2018_01_03_2018_00547945205                     7.03%    passed     97.16%
+ 125  PP269938_1_Viet_Nam_NA_NA_Dengue_2_2018_03_21_2018_21643835616                    19.95%    passed     80.94%
+ 126  PP269934_1_Viet_Nam_NA_NA_Dengue_2_2017_08_23_2017_64109589041                     2.89%    passed     99.98%
+ 127  PP269941_1_Viet_Nam_NA_NA_Dengue_2_2018_06_04_2018_42191780822                    15.24%    passed     90.78%
+ 128  PP269939_1_Viet_Nam_NA_NA_Dengue_2_2018_05_22_2018_38630136986                    26.60%    passed     86.44%
+ 129  PP269942_1_Viet_Nam_NA_NA_Dengue_2_2018_06_26_2018_48219178082                     8.00%    passed     94.98%
+ 130  PP269933_1_Viet_Nam_NA_NA_Dengue_2_2017_07_24_2017_55890410959                    14.08%    passed     94.21%
+ 131  PP396280_1_Cambodia_NA_NA_Dengue_2_2021_11_29_2021_9095890411                      0.00%    passed     99.07%
+ 132  PP269940_1_Viet_Nam_NA_NA_Dengue_2_2018_05_23_2018_38904109589                    15.15%    passed     94.51%
+ 133  PP269943_1_Viet_Nam_NA_NA_Dengue_2_2018_08_07_2018_59726027397                     9.44%    passed     94.80%
+ 134  PP234927_1_Thailand_NA_NA_Dengue_2_2019_07_01_2019_49589041096                     0.00%    passed     99.86%
+ 135  PP234935_1_Thailand_NA_NA_Dengue_2_2018_07_01_2018_49589041096                     0.00%    passed     98.57%
+ 136  PP234966_1_Indonesia_NA_NA_Dengue_2_2018_07_01_2018_49589041096                    0.00%    passed     81.78%
+ 137  OR618319_1_Taiwan_NA_NA_Dengue_2_2016_07_16_2016_53698630137                       0.00%    passed     99.92%
+ 138  OR593380_1_Taiwan_NA_NA_Dengue_2_2015_09_25_2015_73150684932                       0.00%    passed     99.88%
+ 139  OR821737_1_Indonesia_Bali_NA_Dengue_2_2022_06_11_2022_44109589041                  0.00%    passed     99.84%
+ 140  OR821739_1_Indonesia_Bali_NA_Dengue_2_2022_10_06_2022_76164383562                  0.00%    passed     96.95%
+ 141  OR821738_1_Indonesia_Bali_NA_Dengue_2_2022_10_05_2022_75890410959                  0.00%    passed     99.69%
+ 142  OR476984_1_Philippines_NA_NA_Dengue_2_2015_07_27_2015_56712328767                  0.00%    passed     93.51%
+ 143  OR476985_1_Philippines_NA_NA_Dengue_2_2015_08_05_2015_59178082192                  0.00%    passed     95.38%
+ 144  OR476990_1_Philippines_NA_NA_Dengue_2_2016_09_20_2016_71780821918                  0.00%    passed     94.48%
+ 145  OR476994_1_Philippines_NA_NA_Dengue_2_2018_01_25_2018_06575342466                  0.00%    passed     83.61%
+ 146  OR476993_1_Philippines_NA_NA_Dengue_2_2017_07_28_2017_5698630137                   0.00%    passed     94.62%
+ 147  OR476992_1_Philippines_NA_NA_Dengue_2_2016_12_04_2016_92328767123                  0.00%    passed     95.31%
+ 148  OR476995_1_Philippines_NA_NA_Dengue_2_2018_11_30_2018_91232876712                  0.00%    passed     92.70%
+ 149  OR476991_1_Philippines_NA_NA_Dengue_2_2016_10_06_2016_76164383562                  0.00%    passed     91.57%
+ 150  OR389025_1_Malaysia_NA_NA_Dengue_2_2009_01_01_2009                                 0.07%    passed     99.86%
+ 151  OR389020_1_Cambodia_NA_NA_Dengue_2_2009_01_01_2009                                 0.00%    passed     97.14%
+ 152  OR389026_1_Malaysia_NA_NA_Dengue_2_2009_01_01_2009                                13.83%    failed      3.68%
+ 153  OR125606_1_China_Guangzhou_NA_Dengue_2_2023_05_06_2023_34246575342                 0.00%    passed     99.99%
+ 154  OQ821481_1_India_NA_NA_Dengue_2_2022_07_01_2022_49589041096                        0.11%    passed     99.64%
+ 155  OQ821482_1_India_NA_NA_Dengue_2_2022_08_19_2022_6301369863                        12.93%    passed     91.22%
+ 156  OQ832617_1_Viet_Nam_NA_NA_Dengue_2_2019_10_01_2019_74794520548                     0.00%    passed     98.48%
+ 157  OQ832623_1_Viet_Nam_NA_NA_Dengue_2_2019_10_01_2019_74794520548                     0.00%    passed     96.99%
+ 158  OQ832620_1_Viet_Nam_NA_NA_Dengue_2_2019_10_01_2019_74794520548                     0.00%    passed     95.26%
+ 159  OQ832622_1_Viet_Nam_Hanoi_NA_Dengue_2_2019_12_01_2019_91506849315                  0.00%    passed     95.37%
+ 160  OQ832621_1_Viet_Nam_NA_NA_Dengue_2_2019_12_01_2019_91506849315                     0.00%    passed     94.17%
+ 161  OQ832627_1_Viet_Nam_Hanoi_NA_Dengue_2_2020_09_01_2020_66575342466                  0.00%    passed     99.36%
+ 162  OQ832618_1_Viet_Nam_NA_NA_Dengue_2_2019_10_01_2019_74794520548                     0.00%    passed     92.91%
+ 163  OQ832619_1_Viet_Nam_NA_NA_Dengue_2_2019_10_01_2019_74794520548                     0.00%    passed     95.94%
+ 164  OQ832624_1_Viet_Nam_Hanoi_NA_Dengue_2_2020_09_01_2020_66575342466                  0.00%    passed     89.26%
+ 165  OQ832626_1_Viet_Nam_Hanoi_NA_Dengue_2_2020_09_01_2020_66575342466                  0.00%    passed     98.94%
+ 166  OQ652965_1_Myanmar_NA_NA_Dengue_2_2018_09_01_2018_66575342466                      0.00%    passed     98.81%
+ 167  OQ832616_1_Viet_Nam_NA_NA_Dengue_2_2019_10_01_2019_74794520548                     0.00%    passed     93.35%
+ 168  OQ733364_1_India_NA_NA_Dengue_2_2022_01_01_2022                                    0.00%    passed     99.48%
+ 169  OQ832625_1_Viet_Nam_Hanoi_NA_Dengue_2_2020_09_01_2020_66575342466                  0.00%    passed     90.31%
+ 170  OQ733363_1_India_NA_NA_Dengue_2_2022_01_01_2022                                    0.00%    passed     99.47%
+ 171  OQ426757_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_10_15_2018_78630136986              0.30%    passed     97.76%
+ 172  OQ426762_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_26_2018_90136986301              0.30%    passed     99.33%
+ 173  OQ426760_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_21_2018_88767123288              0.30%    passed     99.63%
+ 174  OQ426761_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_22_2018_8904109589               0.30%    passed     99.69%
+ 175  OQ426758_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_10_31_2018_8301369863               0.30%    passed     99.80%
+ 176  OQ426768_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_02_15_2019_12328767123              0.30%    passed     99.59%
+ 177  OQ426767_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_25_2019_06575342466              0.30%    passed     99.71%
+ 178  OQ426759_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_13_2018_86575342466              0.30%    passed     99.65%
+ 179  OQ426764_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_18_2018_96164383562              0.30%    passed     99.42%
+ 180  OQ426766_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_09_2019_02191780822              0.30%    passed     96.99%
+ 181  OQ426765_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_09_2019_02191780822              0.30%    passed     99.71%
+ 182  OQ426771_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_02_28_2019_15890410959              0.30%    passed     99.83%
+ 183  OQ426763_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_06_2018_92876712329              0.30%    passed     99.46%
+ 184  OQ426770_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_02_25_2019_15068493151              0.30%    passed     99.86%
+ 185  OQ426776_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_23_2018_89315068493              0.30%    passed     99.67%
+ 186  OQ426780_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_12_2018_94520547945              0.30%    passed     99.67%
+ 187  OQ426774_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_02_2018_83561643836              0.30%    passed     99.73%
+ 188  OQ426775_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_22_2018_8904109589               0.30%    passed     99.70%
+ 189  OQ426778_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_28_2018_90684931507              0.30%    passed     99.54%
+ 190  OQ426769_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_02_20_2019_13698630137              0.30%    passed     99.78%
+ 191  OQ426785_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_21_2019_05479452055              0.30%    passed     99.57%
+ 192  OQ426783_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_25_2018_98082191781              0.30%    passed     98.32%
+ 193  OQ426784_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_02_2019_00273972603              0.80%    passed     99.69%
+ 194  OQ426782_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_20_2018_96712328767              0.33%    passed     98.75%
+ 195  OQ426779_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_10_2018_9397260274               0.30%    passed     99.52%
+ 196  OQ426781_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_15_2018_95342465753              0.30%    passed     99.69%
+ 197  OQ426791_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_03_04_2019_1698630137               0.30%    passed     99.85%
+ 198  OQ426788_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_02_21_2019_1397260274               0.30%    passed     99.64%
+ 199  OQ426787_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_02_18_2019_13150684931              0.30%    passed     99.65%
+ 200  OQ426790_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_02_22_2019_14246575342              0.30%    passed     99.48%
+ 201  OQ426793_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_12_2018_94520547945              0.30%    passed     99.50%
+ 202  OQ426796_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_03_18_2019_20821917808              0.30%    passed     99.85%
+ 203  OQ426786_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_29_2019_07671232877              0.30%    passed     99.78%
+ 204  OQ426795_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_03_04_2019_1698630137               0.30%    passed     99.86%
+ 205  OQ426797_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_07_12_2018_52602739726              0.30%    passed     99.31%
+ 206  OQ426805_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_10_12_2018_77808219178              0.30%    passed     99.41%
+ 207  OQ426798_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_08_10_2018_60547945205              0.30%    passed     99.18%
+ 208  OQ426800_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_09_07_2018_68219178082              0.30%    passed     99.36%
+ 209  OQ426802_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_09_28_2018_7397260274               0.30%    passed     99.75%
+ 210  OQ426803_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_10_04_2018_75616438356              0.30%    passed     99.73%
+ 211  OQ426801_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_09_18_2018_71232876712              0.30%    passed     99.51%
+ 212  OQ426799_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_08_29_2018_65753424658              0.30%    passed     99.56%
+ 213  OQ426794_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_09_18_2018_71232876712              0.30%    passed     99.67%
+ 214  OQ426806_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_10_12_2018_77808219178              0.30%    passed     99.73%
+ 215  OQ426804_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_10_09_2018_7698630137               0.30%    passed     99.73%
+ 216  OQ426807_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_10_17_2018_79178082192              0.30%    passed     99.45%
+ 217  OQ426808_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_10_25_2018_81369863014              0.30%    passed     99.36%
+ 218  OQ426813_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_05_2018_84383561644              0.30%    passed     99.57%
+ 219  OQ426811_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_10_30_2018_82739726027              0.30%    passed     99.18%
+ 220  OQ426817_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_06_2018_84657534247              0.30%    passed     99.64%
+ 221  OQ426814_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_05_2018_84383561644              0.30%    passed     99.82%
+ 222  OQ426815_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_05_2018_84383561644              0.40%    passed     99.54%
+ 223  OQ426821_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_15_2018_87123287671              0.30%    passed     99.63%
+ 224  OQ426819_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_14_2018_86849315069              0.30%    passed     99.54%
+ 225  OQ426820_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_15_2018_87123287671              0.30%    passed     99.65%
+ 226  OQ426826_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_26_2018_90136986301              0.30%    passed     99.49%
+ 227  OQ426822_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_15_2018_87123287671              0.30%    passed     99.71%
+ 228  OQ426816_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_06_2018_84657534247              0.30%    passed     99.21%
+ 229  OQ426818_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_06_2018_84657534247              0.30%    passed     99.79%
+ 230  OQ426823_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_20_2018_88493150685              0.30%    passed     99.70%
+ 231  OQ426832_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_30_2018_91232876712              0.30%    passed     99.45%
+ 232  OQ426828_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_26_2018_90136986301              0.30%    passed     99.57%
+ 233  OQ426829_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_27_2018_90410958904              0.30%    passed     99.82%
+ 234  OQ426835_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_06_2018_92876712329              0.30%    passed     99.61%
+ 235  OQ426833_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_04_2018_92328767123              0.30%    passed     99.75%
+ 236  OQ426837_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_10_2018_9397260274               0.30%    passed     99.52%
+ 237  OQ426838_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_11_2018_94246575342              0.30%    passed     99.75%
+ 238  OQ426839_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_11_2018_94246575342              0.30%    passed     99.45%
+ 239  OQ426834_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_04_2018_92328767123              0.30%    passed     99.78%
+ 240  OQ426836_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_10_2018_9397260274               0.30%    passed     99.67%
+ 241  OQ426843_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_12_2018_94520547945              0.30%    passed     99.98%
+ 242  OQ426850_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_20_2018_96712328767              0.30%    passed     99.91%
+ 243  OQ426844_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_13_2018_94794520548              0.32%    passed     99.68%
+ 244  OQ426845_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_13_2018_94794520548              0.30%    passed     99.57%
+ 245  OQ426847_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_18_2018_96164383562              0.30%    passed     97.99%
+ 246  OQ426848_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_19_2018_96438356164              0.30%    passed     99.53%
+ 247  OQ426851_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_21_2018_9698630137               0.30%    passed     99.91%
+ 248  OQ426852_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_25_2018_98082191781              0.30%    passed     99.05%
+ 249  OQ426853_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_27_2018_98630136986              0.30%    passed     99.90%
+ 250  OQ426854_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_27_2018_98630136986              0.30%    passed     99.58%
+ 251  OQ426856_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_02_2019_00273972603              0.30%    passed     99.64%
+ 252  OQ426859_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_08_2019_01917808219              0.30%    passed     99.73%
+ 253  OQ426858_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_07_2019_01643835616              0.30%    passed     99.70%
+ 254  OQ426857_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_07_2019_01643835616              0.30%    passed     99.73%
+ 255  OQ426849_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_20_2018_96712328767              0.30%    passed     99.75%
+ 256  OQ426855_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_28_2018_98904109589              0.51%    passed     99.89%
+ 257  OQ426861_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_10_2019_02465753425              0.30%    passed     99.63%
+ 258  OQ426862_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_10_2019_02465753425              0.30%    passed     99.79%
+ 259  OQ426865_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_11_2019_02739726027              0.69%    passed     98.97%
+ 260  OQ426867_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_14_2019_03561643836              0.30%    passed     99.87%
+ 261  OQ426866_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_14_2019_03561643836              0.30%    passed     99.89%
+ 262  OQ426869_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_15_2019_03835616438              0.30%    passed     99.80%
+ 263  OQ426860_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_08_2019_01917808219              0.30%    passed     99.82%
+ 264  OQ426863_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_10_2019_02465753425              0.30%    passed     99.61%
+ 265  OQ426864_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_11_2019_02739726027              0.30%    passed     99.82%
+ 266  OQ426870_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_15_2019_03835616438              0.30%    passed     99.82%
+ 267  OQ426872_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_15_2019_03835616438              0.30%    passed     99.48%
+ 268  OQ426877_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_21_2019_05479452055              0.30%    passed     99.66%
+ 269  OQ426875_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_18_2019_04657534247              0.30%    passed     99.18%
+ 270  OQ426868_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_14_2019_03561643836              0.30%    passed     99.64%
+ 271  OQ426873_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_16_2019_04109589041              0.30%    passed     99.66%
+ 272  OQ426874_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_18_2019_04657534247              0.30%    passed     99.45%
+ 273  OQ426879_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_21_2019_05479452055              0.30%    passed     99.73%
+ 274  OQ426871_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_15_2019_03835616438              0.30%    passed     99.84%
+ 275  OQ426880_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_22_2019_05753424658              0.30%    passed     99.49%
+ 276  OQ426881_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_23_2019_0602739726               0.30%    passed     99.84%
+ 277  OQ426878_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_21_2019_05479452055              0.30%    passed     99.97%
+ 278  OQ426887_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_02_18_2019_13150684931              0.30%    passed     99.73%
+ 279  OQ426882_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_25_2019_06575342466              0.30%    passed     99.79%
+ 280  OQ426885_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_02_18_2019_13150684931              0.30%    passed     99.89%
+ 281  OQ426888_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_02_20_2019_13698630137              0.76%    passed     99.25%
+ 282  OQ426886_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_02_18_2019_13150684931              0.30%    passed     99.57%
+ 283  OQ426892_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_02_25_2019_15068493151              0.30%    passed     98.79%
+ 284  OQ426883_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_25_2019_06575342466              0.30%    passed     99.70%
+ 285  OQ426893_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_02_28_2019_15890410959              0.30%    passed     99.52%
+ 286  OQ426884_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_02_15_2019_12328767123              0.30%    passed     99.75%
+ 287  OQ426891_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_02_22_2019_14246575342              0.30%    passed     99.57%
+ 288  OQ426889_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_02_20_2019_13698630137              0.30%    passed     99.59%
+ 289  OQ426896_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_03_04_2019_1698630137               0.30%    passed     99.79%
+ 290  OQ426894_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_03_01_2019_16164383562              0.30%    passed     99.91%
+ 291  OQ426901_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_03_15_2019_2                        0.30%    passed     99.63%
+ 292  OQ426903_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_04_01_2019_24657534247              0.30%    passed     98.89%
+ 293  OQ426902_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_03_25_2019_22739726027              0.30%    passed     99.86%
+ 294  OQ426898_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_03_07_2019_17808219178              0.30%    passed     99.82%
+ 295  OQ426907_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2017_07_06_2017_5095890411               0.30%    passed     99.48%
+ 296  OQ426905_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_04_18_2019_29315068493              0.30%    passed     99.98%
+ 297  OQ426908_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_23_2018_89315068493              0.30%    passed     99.63%
+ 298  OQ426904_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_04_09_2019_26849315068              0.30%    passed     99.88%
+ 299  OQ426906_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_04_26_2019_31506849315              0.30%    passed     99.78%
+ 300  OQ426909_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_30_2018_91232876712              0.30%    passed     99.53%
+ 301  OQ426910_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_18_2018_96164383562              0.30%    passed     99.48%
+ 302  OQ426916_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_09_10_2018_6904109589               0.30%    passed     98.07%
+ 303  OQ426912_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_07_19_2018_54520547945              0.30%    passed     97.37%
+ 304  OQ426915_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_08_23_2018_64109589041              0.30%    passed     99.17%
+ 305  OQ426919_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_09_19_2018_71506849315              0.30%    passed     99.50%
+ 306  OQ426924_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_09_27_2018_73698630137              0.30%    passed     99.95%
+ 307  OQ426923_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_09_25_2018_73150684932              0.30%    passed     99.75%
+ 308  OQ426926_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_10_03_2018_75342465753              0.30%    passed     99.78%
+ 309  OQ426928_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_10_08_2018_76712328767              0.30%    passed     99.75%
+ 310  OQ426918_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_09_19_2018_71506849315              0.31%    passed     98.95%
+ 311  OQ426931_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_10_15_2018_78630136986              0.30%    passed     99.57%
+ 312  OQ426930_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_10_10_2018_77260273973              0.30%    passed     99.70%
+ 313  OQ426925_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_10_01_2018_74794520548              0.30%    passed     99.70%
+ 314  OQ426933_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_10_20_2018_8                        0.30%    passed     99.65%
+ 315  OQ426934_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_10_24_2018_81095890411              0.30%    passed     99.44%
+ 316  OQ426932_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_10_17_2018_79178082192              0.30%    passed     99.75%
+ 317  OQ426944_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_06_2018_84657534247              0.30%    passed     99.35%
+ 318  OQ426940_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_10_29_2018_82465753425              0.30%    passed     99.63%
+ 319  OQ426938_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_10_26_2018_81643835616              0.30%    passed     99.59%
+ 320  OQ426936_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_10_24_2018_81095890411              0.30%    passed     99.45%
+ 321  OQ426943_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_01_2018_83287671233              0.30%    passed     99.75%
+ 322  OQ426935_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_10_24_2018_81095890411              0.30%    passed     99.61%
+ 323  OQ426939_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_10_29_2018_82465753425              0.30%    passed     99.18%
+ 324  OQ426947_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_14_2018_86849315069              0.30%    passed     99.61%
+ 325  OQ426951_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_19_2018_88219178082              0.30%    passed     99.89%
+ 326  OQ426948_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_14_2018_86849315069              0.30%    passed     99.84%
+ 327  OQ426958_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_12_2018_94520547945              1.10%    passed     98.37%
+ 328  OQ426950_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_16_2018_87397260274              0.30%    passed     99.59%
+ 329  OQ426960_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_20_2018_96712328767              0.30%    passed     99.45%
+ 330  OQ426956_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_04_2018_92328767123              0.61%    passed     99.12%
+ 331  OQ426953_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_19_2018_88219178082              0.62%    passed     99.48%
+ 332  OQ426957_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_11_2018_94246575342              0.30%    passed     99.45%
+ 333  OQ426959_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_15_2018_95342465753              1.09%    passed     97.98%
+ 334  OQ426962_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_26_2018_98356164384              0.30%    passed     98.25%
+ 335  OQ426954_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_11_23_2018_89315068493              0.87%    passed     98.78%
+ 336  OQ426969_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_02_13_2019_11780821918              0.30%    passed     99.89%
+ 337  OQ426961_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_23_2018_97534246575              0.30%    passed     99.63%
+ 338  OQ426970_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_03_04_2019_1698630137               1.26%    passed     99.69%
+ 339  OQ426963_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_28_2018_98904109589              0.30%    passed     99.99%
+ 340  OQ426966_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_21_2019_05479452055              0.30%    passed     99.89%
+ 341  OQ426968_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_29_2019_07671232877              0.30%    passed     99.49%
+ 342  OQ426964_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2018_12_28_2018_98904109589              0.30%    passed     99.95%
+ 343  OQ426967_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_01_29_2019_07671232877              0.30%    passed     99.57%
+ 344  OQ426974_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_03_24_2019_22465753425              0.30%    passed     99.69%
+ 345  OQ426972_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_03_08_2019_18082191781              0.30%    passed     98.58%
+ 346  OQ426975_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_04_08_2019_26575342466              0.42%    passed     99.49%
+ 347  OQ426976_1_Viet_Nam_Nha_Trang_NA_Dengue_2_2019_04_07_2019_26301369863              0.30%    passed     99.82%
+ 348  OP895919_1_Malaysia_NA_NA_Dengue_2_2018_11_01_2018_83287671233                     0.00%    passed     94.88%
+ 349  OQ028218_1_Viet_Nam_NA_NA_Dengue_2_2019_10_14_2019_78356164384                     0.00%    passed     98.15%
+ 350  OQ028217_1_Viet_Nam_NA_NA_Dengue_2_2019_06_07_2019_4301369863                      0.00%    passed     99.79%
+ 351  OQ028223_1_Viet_Nam_NA_NA_Dengue_2_2019_12_16_2019_95616438356                     0.00%    passed     99.25%
+ 352  OQ028219_1_Viet_Nam_NA_NA_Dengue_2_2020_01_15_2020_03835616438                     0.00%    passed     99.25%
+ 353  OQ028220_1_Viet_Nam_NA_NA_Dengue_2_2019_08_14_2019_61643835616                     0.00%    passed     99.60%
+ 354  OQ028222_1_Viet_Nam_NA_NA_Dengue_2_2019_06_25_2019_47945205479                     0.00%    passed     95.00%
+ 355  OQ028216_1_Viet_Nam_NA_NA_Dengue_2_2022_05_25_2022_39452054795                     0.00%    passed     98.22%
+ 356  OQ028221_1_Viet_Nam_NA_NA_Dengue_2_2019_11_13_2019_86575342466                     0.00%    passed     97.46%
+ 357  OQ028215_1_Viet_Nam_NA_NA_Dengue_2_2019_08_14_2019_61643835616                     0.00%    passed     97.48%
+ 358  OQ028224_1_Viet_Nam_NA_NA_Dengue_2_2019_09_09_2019_68767123288                     0.00%    passed     98.56%
+ 359  OQ028226_1_Viet_Nam_NA_NA_Dengue_2_2019_08_01_2019_58082191781                     0.00%    passed     99.86%
+ 360  OQ028227_1_Viet_Nam_NA_NA_Dengue_2_2019_07_31_2019_57808219178                     0.00%    passed     99.67%
+ 361  OQ028228_1_Viet_Nam_NA_NA_Dengue_2_2019_06_26_2019_48219178082                     0.00%    passed     99.05%
+ 362  OQ028231_1_Viet_Nam_NA_NA_Dengue_2_2018_01_17_2018_04383561644                     0.00%    passed     99.69%
+ 363  OQ028225_1_Viet_Nam_NA_NA_Dengue_2_2020_09_23_2020_72602739726                     0.00%    passed     99.95%
+ 364  OQ028229_1_Viet_Nam_NA_NA_Dengue_2_2017_08_03_2017_58630136986                     0.00%    passed     96.47%
+ 365  OQ028230_1_Viet_Nam_NA_NA_Dengue_2_2020_09_07_2020_68219178082                     0.00%    passed     91.58%
+ 366  OQ028232_1_Viet_Nam_NA_NA_Dengue_2_2020_03_02_2020_16438356164                     0.00%    passed     98.61%
+ 367  OQ339137_1_India_NA_NA_Dengue_2_2022_01_01_2022                                    0.00%    passed     99.76%
+ 368  OP389112_1_China_NA_NA_Dengue_2_2022_07_25_2022_56164383562                        0.00%    passed     99.57%
+ 369  OP310806_1_India_NA_NA_Dengue_2_2018_01_01_2018                                    0.02%    passed     84.47%
+ 370  OP310807_1_India_NA_NA_Dengue_2_2019_01_01_2019                                    0.00%    passed     86.87%
+ 371  OP684191_1_China_NA_NA_Dengue_2_2018_11_22_2018_8904109589                         0.00%    passed     97.77%
+ 372  OP684194_1_China_NA_NA_Dengue_2_2018_06_16_2018_45479452055                        0.00%    passed     99.79%
+ 373  OP684216_1_China_NA_NA_Dengue_2_2019_03_11_2019_18904109589                        0.00%    passed     96.47%
+ 374  ON885253_1_Philippines_NA_NA_Dengue_2_2019_07_02_2019_49863013699                  0.00%    passed     83.79%
+ 375  ON799267_1_India_NA_NA_Dengue_2_2018_01_01_2018                                    0.07%    passed     99.88%
+ 376  ON123652_1_India_NA_NA_Dengue_2_2020_01_01_2020                                    0.61%    passed     86.74%
+ 377  ON123649_1_India_NA_NA_Dengue_2_2020_01_01_2020                                    0.13%    passed     88.19%
+ 378  OM639980_1_India_NA_NA_Dengue_2_2021_11_16_2021_87397260274                        0.00%    passed     99.62%
+ 379  OM639979_1_India_NA_NA_Dengue_2_2021_10_19_2021_79726027397                        0.00%    passed     99.61%
+ 380  OM639986_1_India_NA_NA_Dengue_2_2021_11_16_2021_87397260274                        0.00%    passed     95.56%
+ 381  OM639993_1_India_NA_NA_Dengue_2_2021_11_16_2021_87397260274                        0.87%    passed     99.65%
+ 382  OL414742_1_Cambodia_NA_NA_Dengue_2_2019_06_01_2019_41369863014                     0.00%    passed     99.63%
+ 383  MW946580_1_Thailand_NA_NA_Dengue_2_2004_01_01_2004                                 0.01%    passed     99.88%
+ 384  MW946595_1_Thailand_NA_NA_Dengue_2_2005_01_01_2005                                 0.02%    passed     88.64%
+ 385  MW946270_1_Thailand_NA_NA_Dengue_2_2006_01_01_2006                                 0.00%    passed     97.96%
+ 386  MW946286_1_Thailand_NA_NA_Dengue_2_2012_01_01_2012                                 0.00%    passed     98.58%
+ 387  MW946299_1_Thailand_NA_NA_Dengue_2_2002_01_01_2002                                 0.00%    passed     98.58%
+ 388  MW946316_1_Thailand_NA_NA_Dengue_2_2006_01_01_2006                                 0.01%    passed     95.37%
+ 389  MW946314_1_Thailand_NA_NA_Dengue_2_2013_01_01_2013                                 0.00%    passed     97.18%
+ 390  MW946313_1_Thailand_NA_NA_Dengue_2_2006_01_01_2006                                 0.00%    passed     99.80%
+ 391  MW946335_1_Thailand_NA_NA_Dengue_2_2002_01_01_2002                                 0.00%    passed     98.63%
+ 392  MW946352_1_Thailand_NA_NA_Dengue_2_2007_01_01_2007                                 0.01%    passed     98.85%
+ 393  MW946353_1_Thailand_NA_NA_Dengue_2_2004_01_01_2004                                 0.00%    passed     86.37%
+ 394  MW946345_1_Malaysia_NA_NA_Dengue_2_2008_01_01_2008                                 0.00%    failed      3.99%
+ 395  MW946374_1_Thailand_NA_NA_Dengue_2_2012_01_01_2012                                 0.00%    passed     97.91%
+ 396  MW946396_1_Thailand_NA_NA_Dengue_2_2004_01_01_2004                                 0.00%    passed     96.65%
+ 397  MW946404_1_Thailand_NA_NA_Dengue_2_2006_01_01_2006                                 0.01%    passed     96.27%
+ 398  MW946433_1_Thailand_NA_NA_Dengue_2_2007_01_01_2007                                 0.01%    passed     96.05%
+ 399  MW946552_1_Thailand_NA_NA_Dengue_2_2006_01_01_2006                                 0.00%    passed     99.10%
+ 400  MW946573_1_Thailand_NA_NA_Dengue_2_2013_01_01_2013                                 0.00%    passed     96.81%
+ 401  MW720954_1_China_NA_NA_Dengue_2_2019_09_01_2019_66575342466                        0.00%    passed     97.81%
+ 402  MW721463_1_China_NA_NA_Dengue_2_2014_10_01_2014_74794520548                        0.00%    passed     98.25%
+ 403  MW721472_1_China_NA_NA_Dengue_2_2014_10_01_2014_74794520548                        0.00%    passed     99.85%
+ 404  MW788981_1_Myanmar_Yangon_NA_Dengue_2_2018_09_01_2018_66575342466                  0.00%    passed     96.76%
+ 405  MW721475_1_China_NA_NA_Dengue_2_2010_10_01_2010_74794520548                        0.00%    passed     98.55%
+ 406  MW721473_1_China_NA_NA_Dengue_2_2014_10_01_2014_74794520548                        0.00%    passed     97.98%
+ 407  MW881533_1_China_Guangzhou_NA_Dengue_2_2021_02_02_2021_08767123288                 0.00%    passed     77.90%
+ 408  MW512341_1_Singapore_NA_NA_Dengue_2_2004_01_01_2004                                0.00%    passed     96.89%
+ 409  MW512351_1_Singapore_NA_NA_Dengue_2_2008_01_01_2008                                0.00%    passed     96.36%
+ 410  MW512354_1_Singapore_NA_NA_Dengue_2_2009_01_01_2009                                0.00%    passed     97.98%
+ 411  MW512361_1_Singapore_NA_NA_Dengue_2_2010_01_01_2010                                0.00%    passed     94.55%
+ 412  MW512360_1_Singapore_NA_NA_Dengue_2_2010_01_01_2010                                0.00%    passed     94.51%
+ 413  MW512355_1_Singapore_NA_NA_Dengue_2_2009_01_01_2009                                0.00%    passed     98.11%
+ 414  MW512359_1_Singapore_NA_NA_Dengue_2_2010_01_01_2010                                0.00%    passed     95.75%
+ 415  MW512365_1_Singapore_NA_NA_Dengue_2_2011_01_01_2011                                0.00%    passed     99.54%
+ 416  MW512383_1_Singapore_NA_NA_Dengue_2_2013_01_01_2013                                0.00%    passed     98.94%
+ 417  MW512404_1_Singapore_NA_NA_Dengue_2_2013_01_01_2013                                0.00%    passed     99.63%
+ 418  MW512416_1_Singapore_NA_NA_Dengue_2_2014_01_01_2014                                0.00%    passed     96.59%
+ 419  MW512417_1_Singapore_NA_NA_Dengue_2_2014_01_01_2014                                0.00%    passed     98.55%
+ 420  MW512431_1_Singapore_NA_NA_Dengue_2_2014_01_01_2014                                0.00%    passed     90.60%
+ 421  MW512440_1_Singapore_NA_NA_Dengue_2_2015_01_01_2015                                0.00%    passed     94.66%
+ 422  MW512453_1_Singapore_NA_NA_Dengue_2_2016_01_01_2016                                0.00%    passed     93.97%
+ 423  MW512459_1_Singapore_NA_NA_Dengue_2_2016_01_01_2016                                0.00%    passed     98.46%
+ 424  MW512466_1_Singapore_NA_NA_Dengue_2_2016_01_01_2016                                0.00%    passed     92.54%
+ 425  MW512470_1_Singapore_NA_NA_Dengue_2_2017_01_01_2017                                0.00%    passed     94.38%
+ 426  MW512487_1_Singapore_NA_NA_Dengue_2_2018_01_01_2018                                0.00%    passed     99.66%
+ 427  MW512490_1_Singapore_NA_NA_Dengue_2_2019_01_01_2019                                0.00%    passed     84.85%
+ 428  MW387614_1_China_Yunnan_NA_Dengue_2_2009_01_01_2009                                0.00%    passed     99.16%
+ 429  MW186240_1_Singapore_NA_NA_Dengue_2_2019_10_01_2019_74794520548                    0.00%    passed     98.81%
+ 430  MW295818_1_China_Guangzhou_NA_Dengue_2_2020_10_09_2020_7698630137                  0.00%    passed     99.19%
+ 431  MT754370_1_China_Xi_Shuang_Ban_Na_Yunnan_Dengue_2_2019_10_24_2019_81095890411      0.00%    passed     99.98%
+ 432  MT832059_1_Philippines_NA_NA_Dengue_2_2014_01_01_2014                              0.03%    passed     94.95%
+ 433  MT832058_1_Philippines_NA_NA_Dengue_2_2015_01_01_2015                              0.02%    passed     97.28%
+ 434  MT832077_1_Philippines_NA_NA_Dengue_2_2013_01_01_2013                              0.04%    passed     86.43%
+ 435  MT832076_1_Philippines_NA_NA_Dengue_2_2013_01_01_2013                              0.02%    passed     92.04%
+ 436  MN448698_1_Thailand_NA_NA_Dengue_2_2012_08_28_2012_65479452055                     0.00%    passed     96.61%
+ 437  MN448803_1_Thailand_NA_NA_Dengue_2_2011_05_12_2011_35890410959                     0.00%    passed     95.95%
+ 438  MN448854_1_Thailand_NA_NA_Dengue_2_2012_10_11_2012_77534246575                     0.01%    passed     99.25%
+ 439  MN448873_1_Thailand_NA_NA_Dengue_2_2010_08_24_2010_64383561644                     0.02%    passed     98.61%
+ 440  MN018350_1_China_Guangdong_Province_NA_Dengue_2_2016_06_29_2016_4904109589         0.00%    passed     92.11%
+ 441  MN018357_1_China_Guangdong_Province_NA_Dengue_2_2014_05_28_2014_40273972603        0.00%    passed     98.64%
+ 442  MK783197_1_China_NA_NA_Dengue_2_2018_01_01_2018                                    0.00%    passed     99.94%
+ 443  MK858105_2_India_NA_NA_Dengue_2_2016_10_05_2016_75890410959                        1.17%    passed     99.54%
+ 444  MK858112_1_India_NA_NA_Dengue_2_2017_10_05_2017_75890410959                        0.00%    passed     99.09%
+ 445  MK858113_1_India_NA_NA_Dengue_2_2017_09_19_2017_71506849315                        0.00%    passed     96.33%
+ 446  MN018340_1_China_Guangdong_Province_NA_Dengue_2_2016_07_07_2016_51232876712        0.00%    passed     97.49%
+ 447  MK411559_1_Indonesia_Jambi_NA_Dengue_2_2016_02_23_2016_14520547945                 0.00%    passed     99.76%
+ 448  MK564485_1_China_Guangzhou_NA_Dengue_2_2018_08_28_2018_65479452055                 0.00%    passed     99.65%
+ 449  MK564477_1_China_Guangzhou_NA_Dengue_2_2016_04_15_2016_28493150685                 0.00%    passed     99.74%
+ 450  MK564487_1_China_Guangzhou_NA_Dengue_2_2018_09_03_2018_67123287671                 0.00%    passed     99.95%
+ 451  MK578532_1_China_Guangzhou_NA_Dengue_2_2016_04_01_2016_24657534247                 0.00%    passed     94.41%
+ 452  MH822939_2_India_NA_NA_Dengue_2_2012_11_08_2012_85205479452                        0.00%    passed     88.60%
+ 453  MH822947_2_India_NA_NA_Dengue_2_2012_09_24_2012_72876712329                        0.00%    passed     99.74%
+ 454  MH822942_2_India_NA_NA_Dengue_2_2014_09_22_2014_72328767123                        0.00%    passed     99.42%
+ 455  MH822948_2_India_NA_NA_Dengue_2_2012_01_01_2012                                    0.00%    passed     99.72%
+ 456  MH822954_2_India_NA_NA_Dengue_2_2015_08_31_2015_66301369863                        0.00%    passed     93.92%
+ 457  MH822950_2_India_NA_NA_Dengue_2_2013_08_19_2013_6301369863                         0.00%    passed     93.43%
+ 458  MH823208_1_Indonesia_NA_NA_Dengue_2_2014_01_01_2014                                0.00%    passed     99.85%
+ 459  MH827534_1_China_NA_NA_Dengue_2_2017_01_01_2017                                    0.04%    passed     99.98%
+ 460  MF156235_1_China_NA_NA_Dengue_2_2015_09_26_2015_73424657534                        0.00%    passed     99.75%
+ 461  MF156246_1_China_NA_NA_Dengue_2_2015_10_28_2015_82191780822                        0.00%    passed     99.57%
+ 462  LC410186_1_Thailand_NA_NA_Dengue_2_2016_12_01_2016_91506849315                     0.00%    passed     98.84%
+ 463  LC410191_1_Thailand_NA_NA_Dengue_2_2017_02_01_2017_08493150685                     0.00%    passed     99.13%
+ 464  LC410185_1_Thailand_NA_NA_Dengue_2_2016_11_01_2016_83287671233                     0.00%    passed     94.52%
+ 465  KY849766_1_Laos_Vientiane_NA_Dengue_2_2010_04_29_2010_32328767123                  0.00%    passed     97.68%
+ 466  KY849765_1_Laos_Vientiane_NA_Dengue_2_2009_11_06_2009_84657534247                  0.00%    passed     99.59%
+ 467  KY849768_1_Laos_Vientiane_NA_Dengue_2_2010_08_13_2010_61369863014                  0.00%    passed     99.45%
+ 468  KY849764_1_Laos_Vientiane_NA_Dengue_2_2009_09_07_2009_68219178082                  0.00%    passed     97.95%
+ 469  KY672947_1_China_Yunnan_NA_Dengue_2_2013_10_13_2013_78082191781                    0.00%    passed     98.84%
+ 470  KY427084_1_India_Thiruvananthapuram_Kerala_Dengue_2_2010_09_01_2010_66575342466    0.00%    passed     98.39%
+ 471  KY427085_1_India_Thiruvananthapuram_Kerala_Dengue_2_2011_01_03_2011_00547945205    0.00%    passed     99.61%
+ 472  KX380810_1_Singapore_NA_NA_Dengue_2_2012_01_01_2012                                0.00%    passed     99.64%
+ 473  KX380826_1_Singapore_NA_NA_Dengue_2_2013_01_01_2013                                0.00%    passed     99.51%
+ 474  KX380829_1_Singapore_NA_NA_Dengue_2_2013_01_01_2013                                0.00%    passed     99.69%
+ 475  KX380838_1_Singapore_NA_NA_Dengue_2_2013_01_01_2013                                0.00%    passed     99.83%
+ 476  KX380830_1_Singapore_NA_NA_Dengue_2_2013_01_01_2013                                0.00%    passed     99.70%
+ 477  KX452019_1_Malaysia_Johor_Bahru_NA_Dengue_2_2014_01_01_2014                        0.00%    passed     98.25%
+ 478  KX452028_1_Malaysia_Johor_Bahru_NA_Dengue_2_2014_01_01_2014                        0.00%    passed     96.75%
+ 479  KX452029_1_Malaysia_Johor_Bahru_NA_Dengue_2_2014_01_01_2014                        0.00%    passed     96.92%
+ 480  KU666944_1_Malaysia_Johor_Bahru_NA_Dengue_2_2014_01_01_2014                        0.41%    passed     96.98%
+ 481  KU509269_1_Philippines_NA_NA_Dengue_2_2009_01_01_2009                              0.00%    passed     98.39%
+ 482  KU509271_1_India_NA_NA_Dengue_2_2006_01_01_2006                                    0.00%    passed     91.16%
+ 483  KU509268_1_Indonesia_Bali_NA_Dengue_2_2009_01_01_2009                              0.00%    passed     99.91%
+ 484  KU517846_1_Indonesia_NA_NA_Dengue_2_2014_05_07_2014_34520547945                    0.00%    passed     98.55%
+ 485  KU509274_1_Philippines_NA_NA_Dengue_2_2010_01_01_2010                              0.00%    passed     92.16%
+ 486  KU509276_1_Philippines_NA_NA_Dengue_2_2008_01_01_2008                              0.00%    passed     92.48%
+ 487  KU509277_1_Philippines_NA_NA_Dengue_2_2010_01_01_2010                              0.00%    passed     94.23%
+ 488  KP723479_1_China_Guangdong_NA_Dengue_2_2010_01_01_2010                             0.00%    passed     98.85%
+ 489  KM279595_1_Singapore_NA_NA_Dengue_2_2012_01_01_2012                                0.00%    passed     99.97%
+ 490  KM279605_1_Singapore_NA_NA_Dengue_2_2009_01_01_2009                                0.00%    passed     96.34%
+ 491  KM279609_1_Singapore_NA_NA_Dengue_2_2009_01_01_2009                                0.00%    passed     97.10%
+ 492  KP012546_1_China_Guangdong_NA_Dengue_2_2014_01_01_2014                             0.00%    passed     95.54%
+ 493  KM279514_1_Singapore_NA_NA_Dengue_2_2011_01_01_2011                                0.00%    passed     99.36%
+ 494  KF744408_1_Philippines_NA_NA_Dengue_2_2005_01_01_2005                              0.00%    passed     99.47%
+ 495  KC964093_1_China_Jiangmen_Guangdong_Province_Dengue_2_2001_01_01_2001              0.00%    passed     87.07%
+ 496  KC131142_1_China_Guangdong_NA_Dengue_2_2012_09_01_2012_66575342466                 0.00%    passed     99.19%
+ 497  KC762657_1_Indonesia_Makassar_NA_Dengue_2_2008_04_23_2008_30684931507              0.00%    passed     89.40%
+ 498  KC762659_1_Indonesia_Makassar_NA_Dengue_2_2008_04_15_2008_28493150685              0.00%    passed     91.01%
+ 499  KC762662_1_Indonesia_Makassar_NA_Dengue_2_2007_11_21_2007_88767123288              0.00%    passed     97.31%
+ 500  KC762658_1_Indonesia_Makassar_NA_Dengue_2_2007_08_14_2007_61643835616              0.00%    passed     99.08%
+ 501  KC762665_1_Indonesia_Makassar_NA_Dengue_2_2007_07_06_2007_5095890411               0.00%    passed     97.98%
+ 502  KC762678_1_Indonesia_Makassar_NA_Dengue_2_2010_03_04_2010_1698630137               0.00%    passed     96.35%
+ 503  JX475906_1_India_Hyderabad_NA_Dengue_2_2009_01_01_2009                             0.00%    passed     87.90%
+ 504  JQ922551_1_India_Pune_Maharashtra_Dengue_2_2005_01_01_2005                         0.00%    passed     95.84%
+ 505  JQ955623_1_India_Delhi_NA_Dengue_2_2009_01_01_2009                                 0.00%    passed     97.36%
+ 506  JQ955624_1_India_Odisha_NA_Dengue_2_2011_01_01_2011                                0.00%    passed     92.50%
+ 507  JN851119_1_Singapore_NA_NA_Dengue_2_2008_01_01_2008                                0.00%    passed     97.76%
+ 508  JN851127_1_Singapore_NA_NA_Dengue_2_2004_01_01_2004                                0.00%    passed     95.74%
+ 509  JN851129_1_Singapore_NA_NA_Dengue_2_2006_01_01_2006                                0.00%    passed     98.91%
+ 510  JN851130_1_Singapore_NA_NA_Dengue_2_2005_01_01_2005                                0.00%    passed     90.10%
+ 511  HQ891023_1_Taiwan_NA_NA_Dengue_2_2008_01_01_2008                                   0.00%    passed     97.70%
+ 512  JF730049_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.71%
+ 513  GU370051_1_Singapore_NA_NA_Dengue_2_2008_08_01_2008_58082191781                    0.00%    passed     91.29%
+ 514  GQ868622_1_Cambodia_TAK_NA_Dengue_2_2003_01_01_2003                                0.00%    passed     99.34%
+ 515  GU131899_1_Cambodia_PHP_NA_Dengue_2_2008_01_01_2008                                0.00%    passed     99.72%
+ 516  FJ873811_1_Viet_Nam_South_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.23%
+ 517  GQ398267_1_Singapore_NA_NA_Dengue_2_2007_01_01_2007                                0.00%    passed     95.40%
+ 518  FM210205_1_Viet_Nam_South_NA_Dengue_2_2005_01_01_2005                              0.00%    passed     99.75%
+ 519  FM210204_1_Viet_Nam_South_NA_Dengue_2_2003_01_01_2003                              0.00%    passed     99.98%
+ 520  FJ859028_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.99%
+ 521  FM210213_1_Viet_Nam_South_NA_Dengue_2_2005_01_01_2005                              0.00%    passed     92.31%
+ 522  FM210215_1_Viet_Nam_South_NA_Dengue_2_2004_01_01_2004                              0.00%    passed     99.56%
+ 523  FM210206_1_Viet_Nam_South_NA_Dengue_2_2005_01_01_2005                              0.00%    passed     99.96%
+ 524  FM210224_1_Viet_Nam_South_NA_Dengue_2_2001_01_01_2001                              0.00%    passed     97.91%
+ 525  FM210207_1_Viet_Nam_South_NA_Dengue_2_2005_01_01_2005                              0.00%    passed     99.81%
+ 526  FM210212_1_Viet_Nam_South_NA_Dengue_2_2003_01_01_2003                              0.00%    passed     91.06%
+ 527  FM210216_1_Viet_Nam_South_NA_Dengue_2_2004_01_01_2004                              0.00%    passed     99.70%
+ 528  FM210226_1_Viet_Nam_South_NA_Dengue_2_2002_01_01_2002                              0.00%    passed     93.88%
+ 529  FM210229_1_Viet_Nam_South_NA_Dengue_2_2003_01_01_2003                              0.00%    passed     86.72%
+ 530  FM210231_1_Viet_Nam_South_NA_Dengue_2_2004_01_01_2004                              0.00%    passed     98.89%
+ 531  FM210232_2_Viet_Nam_South_NA_Dengue_2_2004_01_01_2004                              0.00%    passed     89.61%
+ 532  FM210225_1_Viet_Nam_South_NA_Dengue_2_2001_01_01_2001                              0.00%    passed     96.78%
+ 533  FM210227_1_Viet_Nam_South_NA_Dengue_2_2002_01_01_2002                              0.00%    passed     99.04%
+ 534  FM210235_2_Viet_Nam_South_NA_Dengue_2_2005_01_01_2005                              0.00%    passed     85.12%
+ 535  FM210233_2_Viet_Nam_South_NA_Dengue_2_2004_01_01_2004                              0.00%    passed     99.21%
+ 536  FM210234_2_Viet_Nam_South_NA_Dengue_2_2004_01_01_2004                              0.00%    passed     84.42%
+ 537  FM210230_1_Viet_Nam_South_NA_Dengue_2_2003_01_01_2003                              0.00%    passed     88.29%
+ 538  FM210228_1_Viet_Nam_South_NA_Dengue_2_2003_01_01_2003                              0.00%    passed     94.43%
+ 539  FM210238_2_Viet_Nam_South_NA_Dengue_2_2001_01_01_2001                              0.00%    passed     93.62%
+ 540  FM210239_2_Viet_Nam_South_NA_Dengue_2_2004_01_01_2004                              0.00%    passed     92.21%
+ 541  FM210244_2_Viet_Nam_South_NA_Dengue_2_2004_01_01_2004                              0.00%    passed     95.13%
+ 542  FM210243_2_Viet_Nam_South_NA_Dengue_2_2004_01_01_2004                              0.00%    passed     93.18%
+ 543  FJ547067_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.68%
+ 544  FM210241_2_Viet_Nam_South_NA_Dengue_2_2004_01_01_2004                              0.00%    passed     98.84%
+ 545  FM210245_2_Viet_Nam_South_NA_Dengue_2_2005_01_01_2005                              0.00%    passed     99.89%
+ 546  FM210242_2_Viet_Nam_South_NA_Dengue_2_2004_01_01_2004                              0.00%    passed     98.35%
+ 547  FJ547064_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.91%
+ 548  FJ562098_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.87%
+ 549  FM210246_2_Viet_Nam_South_NA_Dengue_2_2005_01_01_2005                              0.00%    passed     99.88%
+ 550  FJ639699_1_Cambodia_KCH_NA_Dengue_2_2002_01_01_2002                                0.00%    passed     99.89%
+ 551  FJ639702_1_Cambodia_BTB_NA_Dengue_2_2003_01_01_2003                                0.00%    passed     97.64%
+ 552  FJ639707_1_Cambodia_PHP_NA_Dengue_2_2004_01_01_2004                                0.00%    passed     97.32%
+ 553  FJ639710_1_Cambodia_PHP_NA_Dengue_2_2005_01_01_2005                                0.00%    passed     97.14%
+ 554  FJ639718_1_Cambodia_PRV_NA_Dengue_2_2008_01_01_2008                                0.00%    passed     97.21%
+ 555  FJ390384_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.80%
+ 556  FJ390385_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.21%
+ 557  FJ410202_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.80%
+ 558  FJ390387_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.79%
+ 559  FJ410195_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.92%
+ 560  FJ410193_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     98.91%
+ 561  FJ410228_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     98.64%
+ 562  FJ410200_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.92%
+ 563  FJ410223_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.77%
+ 564  FJ410224_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     97.31%
+ 565  FJ410217_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.48%
+ 566  FJ410208_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.93%
+ 567  FJ410221_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.25%
+ 568  FJ410219_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     97.53%
+ 569  FJ410241_1_Viet_Nam_South_NA_Dengue_2_2008_01_01_2008                              0.00%    passed     99.88%
+ 570  FJ410233_1_Viet_Nam_South_NA_Dengue_2_2008_01_01_2008                              0.00%    passed     99.94%
+ 571  FJ410215_1_Viet_Nam_South_NA_Dengue_2_2008_01_01_2008                              0.00%    passed     98.30%
+ 572  FJ410237_1_Viet_Nam_South_NA_Dengue_2_2008_01_01_2008                              0.00%    passed     99.79%
+ 573  FJ410288_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     98.90%
+ 574  FJ410259_1_Viet_Nam_South_NA_Dengue_2_2008_01_01_2008                              0.00%    passed     98.94%
+ 575  FJ461305_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.80%
+ 576  FJ432724_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.68%
+ 577  FJ461311_1_Viet_Nam_South_NA_Dengue_2_2008_01_01_2008                              0.00%    passed     99.95%
+ 578  FJ461314_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.54%
+ 579  FJ432726_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     98.39%
+ 580  FJ461321_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.03%
+ 581  FJ024458_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.87%
+ 582  EU726776_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.77%
+ 583  FJ024454_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     98.61%
+ 584  FJ461309_1_Viet_Nam_South_NA_Dengue_2_2008_01_01_2008                              0.00%    passed     99.97%
+ 585  FJ024452_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.91%
+ 586  FJ024461_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.93%
+ 587  FJ205879_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     98.61%
+ 588  FJ205878_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.80%
+ 589  FJ205880_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.86%
+ 590  FJ205877_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     98.54%
+ 591  FJ373299_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.92%
+ 592  EU482643_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.53%
+ 593  EU482646_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     98.91%
+ 594  EU482645_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.94%
+ 595  EU482641_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.83%
+ 596  EU482644_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.82%
+ 597  EU482640_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     92.15%
+ 598  EU482647_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     98.99%
+ 599  EU482649_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     98.30%
+ 600  EU482642_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.93%
+ 601  EU482651_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     98.46%
+ 602  EU482653_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.07%
+ 603  EU482652_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.58%
+ 604  EU482648_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     98.16%
+ 605  EU482650_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.48%
+ 606  EU482656_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.69%
+ 607  EU482655_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.05%
+ 608  EU482654_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.41%
+ 609  EU482657_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.02%
+ 610  EU482659_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.14%
+ 611  EU482660_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     97.95%
+ 612  EU482658_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.63%
+ 613  EU482661_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.66%
+ 614  EU482662_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     98.26%
+ 615  EU482663_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.93%
+ 616  EU482668_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     98.47%
+ 617  EU482669_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     98.84%
+ 618  EU482667_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.90%
+ 619  EU482664_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     98.80%
+ 620  EU482665_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.68%
+ 621  EU482671_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.37%
+ 622  EU482672_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     96.88%
+ 623  EU482670_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.75%
+ 624  EU482666_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     98.89%
+ 625  EU482676_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.96%
+ 626  EU482677_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.48%
+ 627  EU482675_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     98.62%
+ 628  EU482674_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     98.86%
+ 629  EU482678_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     98.95%
+ 630  EU482679_1_Viet_Nam_south_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.85%
+ 631  EU482673_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.71%
+ 632  EU482697_1_Viet_Nam_south_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.84%
+ 633  EU482703_1_Viet_Nam_south_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.86%
+ 634  EU482700_1_Viet_Nam_south_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.08%
+ 635  EU482699_1_Viet_Nam_south_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     98.85%
+ 636  EU482702_1_Viet_Nam_south_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.07%
+ 637  EU482701_1_Viet_Nam_south_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     98.98%
+ 638  EU482698_1_Viet_Nam_south_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     98.92%
+ 639  EU482705_1_Viet_Nam_south_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.44%
+ 640  EU482704_1_Viet_Nam_south_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.83%
+ 641  EU482777_1_Viet_Nam_south_NA_Dengue_2_2005_01_01_2005                              0.00%    passed     99.91%
+ 642  EU482775_1_Viet_Nam_south_NA_Dengue_2_2004_01_01_2004                              0.00%    passed     99.90%
+ 643  EU482774_1_Viet_Nam_south_NA_Dengue_2_2004_01_01_2004                              0.00%    passed     99.52%
+ 644  EU482776_1_Viet_Nam_south_NA_Dengue_2_2005_01_01_2005                              0.00%    passed     99.40%
+ 645  EU482778_1_Viet_Nam_south_NA_Dengue_2_2003_01_01_2003                              0.00%    passed     97.23%
+ 646  EU482780_1_Viet_Nam_south_NA_Dengue_2_2003_01_01_2003                              0.00%    passed     92.72%
+ 647  EU482782_1_Viet_Nam_south_NA_Dengue_2_2003_01_01_2003                              0.00%    passed     99.82%
+ 648  EU482779_1_Viet_Nam_south_NA_Dengue_2_2003_01_01_2003                              0.00%    passed     90.29%
+ 649  EU482781_1_Viet_Nam_south_NA_Dengue_2_2003_01_01_2003                              0.00%    passed     92.93%
+ 650  EU569721_1_Viet_Nam_South_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.96%
+ 651  EU482785_1_Viet_Nam_south_NA_Dengue_2_2003_01_01_2003                              0.00%    passed     93.33%
+ 652  EU482787_1_Viet_Nam_south_NA_Dengue_2_2003_01_01_2003                              0.00%    passed     93.33%
+ 653  EU482783_1_Viet_Nam_south_NA_Dengue_2_2003_01_01_2003                              0.00%    passed     85.99%
+ 654  EU482786_1_Viet_Nam_south_NA_Dengue_2_2003_01_01_2003                              0.00%    passed     99.12%
+ 655  EU482784_1_Viet_Nam_south_NA_Dengue_2_2003_01_01_2003                              0.00%    passed     99.98%
+ 656  EU660413_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.10%
+ 657  EU660414_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.89%
+ 658  EU677148_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.84%
+ 659  EU677149_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.58%
+ 660  EU482788_1_Viet_Nam_south_NA_Dengue_2_2003_01_01_2003                              0.00%    passed     83.72%
+ 661  EU660416_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.71%
+ 662  EU660415_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.91%
+ 663  EU660417_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.57%
+ 664  EU677137_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.78%
+ 665  EU677138_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.85%
+ 666  EU687248_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.76%
+ 667  EU687250_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.77%
+ 668  EU482445_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     98.65%
+ 669  EU482451_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.42%
+ 670  EU482447_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     98.47%
+ 671  EU482446_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.27%
+ 672  EU687249_1_Viet_Nam_South_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.28%
+ 673  EU482449_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     98.50%
+ 674  EU482450_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.71%
+ 675  EU482448_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     98.03%
+ 676  EU482463_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.44%
+ 677  EU482469_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     97.09%
+ 678  EU482465_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     98.42%
+ 679  EU482464_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.48%
+ 680  EU482473_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.86%
+ 681  EU482466_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.74%
+ 682  EU482467_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.72%
+ 683  EU482471_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.47%
+ 684  EU482541_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.89%
+ 685  EU482468_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.76%
+ 686  EU482474_1_Viet_Nam_south_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.07%
+ 687  EU482470_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.90%
+ 688  EU482472_1_Viet_Nam_south_NA_Dengue_2_2004_01_01_2004                              0.00%    passed     99.83%
+ 689  EU482542_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.94%
+ 690  EU482543_1_Viet_Nam_south_NA_Dengue_2_2006_01_01_2006                              0.00%    passed     99.81%
+ 691  EU482475_1_Viet_Nam_south_NA_Dengue_2_2007_01_01_2007                              0.00%    passed     99.87%
+ 692  DQ448231_2_India_NA_NA_Dengue_2_2001_01_01_2001                                    0.00%    passed     95.78%
+ 693  AB479042_1_Viet_Nam_Ho_Chi_Minh_NA_Dengue_2_2002_01_01_2002                        0.01%    passed     92.83%
+ 694  56DX_117_Vietnam_NA_NA_Dengue_2_2022_07_18_2022_54246575342                        0.00%    passed     99.30%
+ 695  61DX_03_801_Vietnam_NA_NA_Dengue_2_2023_07_10_2023_52054794521                     0.51%    passed     98.91%
+ 696  66DX_1104_Vietnam_NA_NA_Dengue_2_2023_07_21_2023_55068493151                       0.07%    passed     99.86%
+ 697  66DX_1103_Vietnam_NA_NA_Dengue_2_2023_06_29_2023_4904109589                        0.07%    passed     98.22%
+ 698  66DX_1108_Vietnam_NA_NA_Dengue_2_2023_08_24_2023_64383561644                       0.00%    passed     99.64%
+ 699  61DX_03_302_Vietnam_NA_NA_Dengue_2_2023_08_23_2023_64109589041                     0.20%    passed     99.99%
+ 700  66DX_1102_Vietnam_NA_NA_Dengue_2_2023_06_23_2023_47397260274                       0.09%    passed     99.99%
+ 701  56DX_206_Vietnam_NA_NA_Dengue_2_2022_04_01_2022_24657534247                        0.00%    passed    100.00%
+ 702  61DX_144_101_Vietnam_NA_NA_Dengue_2_2023_09_08_2023_68493150685                    0.23%    passed     99.45%
+ 703  61DX_03_701_Vietnam_NA_NA_Dengue_2_2023_01_03_2023_00547945205                     0.68%    passed     99.71%
+ 704  56DX_703_Vietnam_NA_NA_Dengue_2_2022_05_20_2022_38082191781                        0.00%    passed     98.56%
+ 705  61DX_03_201_Vietnam_NA_NA_Dengue_2_2023_02_15_2023_12328767123                     0.42%    passed     99.86%
+ 706  56DX_128_Vietnam_NA_NA_Dengue_2_2022_09_30_2022_74520547945                        0.00%    passed     91.80%
+ 707  56DX_702_Vietnam_NA_NA_Dengue_2_2022_05_09_2022_35068493151                        0.00%    passed     99.95%
+ 708  56DX_804_Vietnam_NA_NA_Dengue_2_2022_11_01_2022_83287671233                        0.00%    passed     99.94%
+ 709  56DX_202_Vietnam_NA_NA_Dengue_2_2020_08_05_2020_59178082192                        0.00%    passed     88.89%
+ 710  56DX_129_Vietnam_NA_NA_Dengue_2_2022_11_16_2022_87397260274                        0.00%    passed     98.94%
+ 711  56DX_713_Vietnam_NA_NA_Dengue_2_2023_01_03_2023_00547945205                        0.00%    passed     99.46%
+ 712  56DX_120_Vietnam_NA_NA_Dengue_2_2022_09_05_2022_67671232877                        0.00%    passed     99.82%
+ 713  56DX_119_Vietnam_NA_NA_Dengue_2_2022_08_24_2022_64383561644                        0.00%    passed     99.04%
+ 714  56DX_803_Vietnam_NA_NA_Dengue_2_2022_10_27_2022_81917808219                        0.00%    passed     99.99%
+ 715  56DX_106_Vietnam_NA_NA_Dengue_2_2021_03_05_2021_17260273973                        0.00%    passed     98.32%
+ 716  56DX_801_Vietnam_NA_NA_Dengue_2_2022_09_14_2022_70136986301                        0.00%    passed     99.75%
+ 717  56DX_204_Vietnam_NA_NA_Dengue_2_2020_08_25_2020_64657534247                        0.00%    passed     99.54%
+ 718  56DX_208_Vietnam_NA_NA_Dengue_2_2022_08_23_2022_64109589041                        0.00%    passed     99.62%
+ 719  56DX_115_Vietnam_NA_NA_Dengue_2_2022_07_05_2022_50684931507                        0.00%    passed     99.55%
+ 720  53DX_209_Vietnam_NA_NA_Dengue_2_2020_05_12_2020_35890410959                        0.01%    passed     99.13%
+ 721  56DX_116_Vietnam_NA_NA_Dengue_2_2022_07_18_2022_54246575342                        0.00%    passed     99.57%
+ 722  56DX_105_Vietnam_NA_NA_Dengue_2_2021_02_22_2021_14246575342                        0.00%    passed     90.06%
+ 723  56DX_211_Vietnam_NA_NA_Dengue_2_2022_12_20_2022_96712328767                        0.01%    passed     99.93%
+ 724  56DX_711_Vietnam_NA_NA_Dengue_2_2022_11_07_2022_84931506849                        0.00%    passed     99.51%
+ 725  53DX_110A_Vietnam_NA_NA_Dengue_2_2022_10_10_2022_77260273973                       0.00%    passed     99.51%
+ 726  53DX_105A_Vietnam_NA_NA_Dengue_2_2022_06_28_2022_48767123288                       0.00%    passed     99.30%
+ 727  53DX_106A_Vietnam_NA_NA_Dengue_2_2022_08_01_2022_58082191781                       0.00%    passed     99.94%
+ 728  66DX_1107_Vietnam_NA_NA_Dengue_2_2023_08_02_2023_58356164384                       0.00%    passed     97.15%
+ 729  53DX_101_Vietnam_NA_NA_Dengue_2_2019_05_04_2019_33698630137                        0.01%    passed     94.95%
+ 730  66DX_4010_Vietnam_NA_NA_Dengue_2_2023_07_07_2023_51232876712                       0.00%    passed     99.94%
+ 731  66DX_4019_Vietnam_NA_NA_Dengue_2_2023_08_22_2023_63835616438                       0.00%    passed     98.55%
+ 732  66DX_1105_Vietnam_NA_NA_Dengue_2_2023_07_21_2023_55068493151                       0.00%    passed     99.98%
+ 733  66DX_1111_Vietnam_NA_NA_Dengue_2_2023_09_08_2023_68493150685                       0.00%    passed     99.83%
+ 734  66DX_4011_Vietnam_NA_NA_Dengue_2_2023_07_13_2023_52876712329                       1.59%    passed     96.41%
+ 735  66DX_1101_Vietnam_NA_NA_Dengue_2_2023_05_25_2023_39452054795                       0.00%    passed     99.88%
+ 736  53DX_706A_Vietnam_NA_NA_Dengue_2_2023_02_06_2023_09863013699                       0.00%    passed     99.56%
+ 737  66DX_4023_Vietnam_NA_NA_Dengue_2_2023_09_13_2023_69863013699                       0.23%    passed     99.02%
+ 738  66DX_4006_Vietnam_NA_NA_Dengue_2_2023_06_21_2023_46849315068                       0.01%    passed     99.34%
+ 739  61DX_03_204_Vietnam_NA_NA_Dengue_2_2023_09_21_2023_72054794521                     0.00%    passed     99.85%
+ 740  66DX_4003_Vietnam_NA_NA_Dengue_2_2023_06_02_2023_41643835616                       0.52%    passed     99.65%
+ 741  61DX_03_704_Vietnam_NA_NA_Dengue_2_2023_06_15_2023_45205479452                     0.00%    passed     99.74%
+ 742  61DX_3_311_Vietnam_NA_NA_Dengue_2_2024_10_07_2024_76438356164                      0.00%    passed     99.48%
+ 743  61DX_3_712_Vietnam_NA_NA_Dengue_2_2024_10_02_2024_75068493151                      0.00%    passed     97.32%
+ 744  61DX_03_703_Vietnam_NA_NA_Dengue_2_2023_03_13_2023_19452054795                     0.00%    passed     99.74%
+ 745  61DX_3_709_Vietnam_NA_NA_Dengue_2_2024_08_11_2024_60821917808                      0.00%    passed     97.84%
+ 746  61DX_03_702_Vietnam_NA_NA_Dengue_2_2023_01_10_2023_02465753425                     0.00%    passed     99.43%
+ 747  61DX_3_213_Vietnam_NA_NA_Dengue_2_2024_06_21_2024_46849315068                      0.00%    passed     98.24%
+ 748  61DX_3_230_Vietnam_NA_NA_Dengue_2_2024_11_18_2024_87945205479                      0.00%    passed     99.39%
+ 749  66DX_4007_Vietnam_NA_NA_Dengue_2_2023_06_28_2023_48767123288                       0.01%    passed     99.65%
+ 750  66DX_1129_Vietnam_NA_NA_Dengue_2_2024_07_17_2024_5397260274                        0.00%    passed     99.39%
+ 751  61DX_3_807_Vietnam_NA_NA_Dengue_2_2023_12_01_2023_91506849315                      0.00%    passed     96.81%
+ 752  61DX_3_904_Vietnam_NA_NA_Dengue_2_2024_10_17_2024_79178082192                      0.00%    passed     99.57%
+ 753  61DX_3_225_Vietnam_NA_NA_Dengue_2_2024_10_11_2024_77534246575                      0.00%    passed     99.87%
+ 754  61DX_144_102_Vietnam_NA_NA_Dengue_2_2023_11_02_2023_83561643836                    0.00%    passed     99.96%
+ 755  66DX_1130_Vietnam_NA_NA_Dengue_2_2024_08_14_2024_61643835616                       0.00%    passed     97.41%
+ 756  66DX_4060_Vietnam_NA_NA_Dengue_2_2024_10_04_2024_75616438356                       0.00%    passed     99.80%
+ 757  66DX_1117_Vietnam_NA_NA_Dengue_2_2023_11_27_2023_90410958904                       0.01%    passed     99.93%
+ 758  66DX_1120_Vietnam_NA_NA_Dengue_2_2023_12_14_2023_95068493151                       0.00%    passed     98.88%
+ 759  66DX_1121_Vietnam_NA_NA_Dengue_2_2023_12_19_2023_96438356164                       0.00%    passed     99.79%
+ 760  61DX_3_229_Vietnam_NA_NA_Dengue_2_2024_11_07_2024_84931506849                      0.00%    passed     99.02%
+ 761  61DX_3_211_Vietnam_NA_NA_Dengue_2_2024_06_14_2024_44931506849                      0.00%    passed     99.48%
+ 762  61DX_3_221_Vietnam_NA_NA_Dengue_2_2024_08_22_2024_63835616438                      0.00%    passed     99.80%
+ 763  66DX_1115_Vietnam_NA_NA_Dengue_2_2023_11_15_2023_87123287671                       0.00%    passed     99.99%
+ 764  61DX_3_224_Vietnam_NA_NA_Dengue_2_2024_09_16_2024_70684931507                      0.00%    passed     98.95%
+ 765  66DX_4038_Vietnam_NA_NA_Dengue_2_2023_12_05_2023_92602739726                       0.00%    passed     99.87%
+ 766  61DX_3_227_Vietnam_NA_NA_Dengue_2_2024_10_23_2024_80821917808                      0.00%    passed     97.41%
+ 767  61DX_3_901_Vietnam_NA_NA_Dengue_2_2024_07_11_2024_52328767123                      0.00%    passed     99.71%
+ 768  61DX_3_710_Vietnam_NA_NA_Dengue_2_2023_12_19_2023_96438356164                      0.00%    passed     99.20%
+ 769  61DX_3_808_Vietnam_NA_NA_Dengue_2_2024_07_30_2024_57534246575                      0.00%    passed     97.87%
+ 770  61DX_3_308_Vietnam_NA_NA_Dengue_2_2024_07_28_2024_5698630137                       0.00%    passed    100.00%
+ 771  61DX_3_220_Vietnam_NA_NA_Dengue_2_2024_08_20_2024_63287671233                      0.00%    passed     99.52%
+ 772  66DX_1119_Vietnam_NA_NA_Dengue_2_2023_11_28_2023_90684931507                       0.00%    passed     99.79%
+ 773  66DX_1126_Vietnam_NA_NA_Dengue_2_2024_06_12_2024_44383561644                       0.00%    passed     99.69%
+ 774  61DX_3_223_Vietnam_NA_NA_Dengue_2_2024_09_13_2024_69863013699                      0.00%    passed     99.90%
+ 775  61DX_3_216_Vietnam_NA_NA_Dengue_2_2024_08_06_2024_59452054795                      0.00%    passed     98.19%
+ 776  66DX_1124_Vietnam_NA_NA_Dengue_2_2024_03_07_2024_17808219178                       0.00%    passed     99.92%
+ 777  61DX_3_903_Vietnam_NA_NA_Dengue_2_2024_08_19_2024_6301369863                       0.00%    passed     97.98%
+****  TOTAL                                                                              1.80%  2 sequences failed composition chi2 test (p-value<5%; df=3)
+Checking for duplicate sequences: done in 0.160844 secs using 52.61% CPU
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 3.244 seconds
+
+NOTE: 574 MB RAM (0 GB) is required!
+Measuring multi-threading efficiency up to 10 CPU cores
+2 trees examined
+Threads: 1 / Time: 10.746 sec / Speedup: 1.000 / Efficiency: 100% / LogL: -941713
+Threads: 2 / Time: 21.876 sec / Speedup: 0.491 / Efficiency: 25% / LogL: -941713
+Determining AUTO threadcount: done in 32.7157 secs using 86.11% CPU
+BEST NUMBER OF THREADS: 1
+
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.000 / Estimate: 0.000, 0.255 / LogL: -158519.863
+Init pinv, alpha: 0.060, 1.000 / Estimate: 0.085, 0.303 / LogL: -158511.009
+Init pinv, alpha: 0.121, 1.000 / Estimate: 0.489, 1.522 / LogL: -158259.916
+Init pinv, alpha: 0.181, 1.000 / Estimate: 0.489, 1.524 / LogL: -158259.987
+Init pinv, alpha: 0.241, 1.000 / Estimate: 0.489, 1.524 / LogL: -158260.122
+Init pinv, alpha: 0.302, 1.000 / Estimate: 0.489, 1.520 / LogL: -158260.314
+Init pinv, alpha: 0.362, 1.000 / Estimate: 0.489, 1.520 / LogL: -158260.510
+Init pinv, alpha: 0.422, 1.000 / Estimate: 0.489, 1.523 / LogL: -158260.722
+Init pinv, alpha: 0.483, 1.000 / Estimate: 0.489, 1.524 / LogL: -158261.012
+Init pinv, alpha: 0.543, 1.000 / Estimate: 0.491, 1.550 / LogL: -158261.304
+Optimal pinv,alpha: 0.489, 1.522 / LogL: -158259.916
+
+Parameters optimization took 1544.323 sec
+Wrote distance file to... 
+Computing ML distances based on estimated model parameters...
+Calculating distance matrix: done in 7.19414 secs using 99.94% CPU
+Computing ML distances took 7.297737 sec (of wall-clock time) 7.281271 sec (of CPU time)
+Setting up auxiliary I and S matrices: done in 0.0229887 secs using 65.18% CPU
+Constructing RapidNJ tree: done in 0.0538349 secs using 79.85% CPU
+Computing RapidNJ tree took 0.077015 sec (of wall-clock time) 0.058161 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -160644.303
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 148.731 second
+Computing log-likelihood of 98 initial trees ... 171.112 seconds
+Current best score: -158218.762
+
+Do NNI search on 20 best initial trees
+Optimizing NNI: done in 18.5564 secs using 99.74% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -158167.506
+Optimizing NNI: done in 20.5575 secs using 99.67% CPU
+Optimizing NNI: done in 19.1605 secs using 99.73% CPU
+Optimizing NNI: done in 21.4994 secs using 99.59% CPU
+Optimizing NNI: done in 18.9269 secs using 99.49% CPU
+Optimizing NNI: done in 19.3553 secs using 99.6% CPU
+Optimizing NNI: done in 21.1483 secs using 99.75% CPU
+Optimizing NNI: done in 21.2164 secs using 99.72% CPU
+Optimizing NNI: done in 19.9215 secs using 99.68% CPU
+Optimizing NNI: done in 16.8203 secs using 99.81% CPU
+Iteration 10 / LogL: -158185.271 / Time: 0h:35m:30s
+Optimizing NNI: done in 20.7567 secs using 99.73% CPU
+Optimizing NNI: done in 19.7793 secs using 99.73% CPU
+Optimizing NNI: done in 14.8711 secs using 99.54% CPU
+Optimizing NNI: done in 18.6665 secs using 99.66% CPU
+Optimizing NNI: done in 18.3279 secs using 99.67% CPU
+Optimizing NNI: done in 24.3252 secs using 99.65% CPU
+Optimizing NNI: done in 18.9405 secs using 99.6% CPU
+Optimizing NNI: done in 21.2249 secs using 99.77% CPU
+Optimizing NNI: done in 19.3899 secs using 99.67% CPU
+Optimizing NNI: done in 21.4802 secs using 99.81% CPU
+Iteration 20 / LogL: -158188.965 / Time: 0h:38m:53s
+Finish initializing candidate tree set (20)
+Current best tree score: -158167.506 / CPU time: 730.118
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Optimizing NNI: done in 31.2782 secs using 99.82% CPU
+Optimizing NNI: done in 30.7063 secs using 99.59% CPU
+Optimizing NNI: done in 38.5085 secs using 99.64% CPU
+Optimizing NNI: done in 37.2963 secs using 99.65% CPU
+Optimizing NNI: done in 33.8827 secs using 99.6% CPU
+Optimizing NNI: done in 32.9906 secs using 99.65% CPU
+Optimizing NNI: done in 37.4566 secs using 99.67% CPU
+Optimizing NNI: done in 28.7262 secs using 99.69% CPU
+Optimizing NNI: done in 31.3469 secs using 99.72% CPU
+Optimizing NNI: done in 29.6451 secs using 99.63% CPU
+Iteration 30 / LogL: -158181.894 / Time: 0h:44m:31s (1h:48m:49s left)
+Optimizing NNI: done in 36.3955 secs using 99.69% CPU
+Optimizing NNI: done in 30.609 secs using 99.8% CPU
+Optimizing NNI: done in 29.4552 secs using 99.76% CPU
+Optimizing NNI: done in 33.211 secs using 99.65% CPU
+Optimizing NNI: done in 34.0399 secs using 99.63% CPU
+Optimizing NNI: done in 29.504 secs using 99.73% CPU
+Optimizing NNI: done in 29.8564 secs using 99.61% CPU
+Optimizing NNI: done in 30.5507 secs using 99.77% CPU
+Optimizing NNI: done in 27.8311 secs using 99.6% CPU
+Optimizing NNI: done in 37.5848 secs using 99.61% CPU
+Iteration 40 / LogL: -158461.893 / Time: 0h:49m:56s (1h:18m:0s left)
+Optimizing NNI: done in 32.8191 secs using 99.66% CPU
+Optimizing NNI: done in 28.2709 secs using 99.6% CPU
+Optimizing NNI: done in 30.322 secs using 99.63% CPU
+Optimizing NNI: done in 31.2466 secs using 99.65% CPU
+Optimizing NNI: done in 27.8042 secs using 99.55% CPU
+Optimizing NNI: done in 29.9663 secs using 99.7% CPU
+Optimizing NNI: done in 33.9411 secs using 99.68% CPU
+Optimizing NNI: done in 35.7849 secs using 99.71% CPU
+Optimizing NNI: done in 32.4813 secs using 99.71% CPU
+Optimizing NNI: done in 32.3664 secs using 99.65% CPU
+Iteration 50 / LogL: -158172.877 / Time: 0h:55m:17s (0h:57m:28s left)
+Optimizing NNI: done in 34.1883 secs using 99.6% CPU
+Optimizing NNI: done in 31.9451 secs using 99.76% CPU
+Optimizing NNI: done in 31.1537 secs using 99.75% CPU
+Optimizing NNI: done in 29.6389 secs using 99.67% CPU
+Optimizing NNI: done in 31.3572 secs using 99.53% CPU
+Optimizing NNI: done in 33.5703 secs using 99.72% CPU
+Optimizing NNI: done in 35.7543 secs using 99.67% CPU
+Optimizing NNI: done in 26.8289 secs using 99.71% CPU
+Optimizing NNI: done in 31.0788 secs using 99.65% CPU
+Optimizing NNI: done in 34.0604 secs using 99.77% CPU
+Iteration 60 / LogL: -158392.850 / Time: 1h:0m:43s (0h:42m:8s left)
+Optimizing NNI: done in 34.8703 secs using 99.71% CPU
+Optimizing NNI: done in 36.7019 secs using 99.56% CPU
+Optimizing NNI: done in 34.2566 secs using 99.58% CPU
+Optimizing NNI: done in 34.4852 secs using 99.68% CPU
+Optimizing NNI: done in 29.3722 secs using 99.82% CPU
+Optimizing NNI: done in 40.5454 secs using 99.63% CPU
+Optimizing NNI: done in 27.5526 secs using 99.53% CPU
+Optimizing NNI: done in 36.7789 secs using 99.65% CPU
+Optimizing NNI: done in 37.5386 secs using 99.62% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 69: -158166.426
+Optimizing NNI: done in 36.8254 secs using 99.58% CPU
+Iteration 70 / LogL: -158284.068 / Time: 1h:6m:44s (1h:35m:39s left)
+Optimizing NNI: done in 34.8713 secs using 99.74% CPU
+Optimizing NNI: done in 28.1562 secs using 99.58% CPU
+Optimizing NNI: done in 36.4527 secs using 99.66% CPU
+Optimizing NNI: done in 33.488 secs using 99.76% CPU
+Optimizing NNI: done in 34.33 secs using 99.6% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 75: -158164.332
+Optimizing NNI: done in 32.1505 secs using 99.59% CPU
+Optimizing NNI: done in 34.2831 secs using 99.73% CPU
+Optimizing NNI: done in 31.5113 secs using 99.71% CPU
+Optimizing NNI: done in 33.9837 secs using 99.69% CPU
+Optimizing NNI: done in 33.2502 secs using 99.69% CPU
+Iteration 80 / LogL: -158223.276 / Time: 1h:12m:28s (1h:27m:4s left)
+Optimizing NNI: done in 33.5576 secs using 99.68% CPU
+Optimizing NNI: done in 39.6609 secs using 99.71% CPU
+Optimizing NNI: done in 33.5199 secs using 99.72% CPU
+Optimizing NNI: done in 32.3021 secs using 99.63% CPU
+Optimizing NNI: done in 35.0722 secs using 99.71% CPU
+Optimizing NNI: done in 33.9971 secs using 99.68% CPU
+Optimizing NNI: done in 29.2146 secs using 99.63% CPU
+Optimizing NNI: done in 34.0224 secs using 99.71% CPU
+Optimizing NNI: done in 33.2291 secs using 99.72% CPU
+Optimizing NNI: done in 35.4929 secs using 99.66% CPU
+Iteration 90 / LogL: -158190.081 / Time: 1h:18m:14s (1h:14m:39s left)
+Optimizing NNI: done in 33.9178 secs using 99.73% CPU
+Optimizing NNI: done in 32.7912 secs using 99.72% CPU
+Optimizing NNI: done in 34.1819 secs using 99.73% CPU
+Optimizing NNI: done in 35.9476 secs using 99.8% CPU
+Optimizing NNI: done in 30.7202 secs using 99.7% CPU
+Optimizing NNI: done in 33.2904 secs using 99.62% CPU
+Optimizing NNI: done in 34.7902 secs using 99.74% CPU
+Optimizing NNI: done in 33.1755 secs using 99.66% CPU
+Optimizing NNI: done in 33.8322 secs using 99.81% CPU
+Optimizing NNI: done in 33.5086 secs using 99.64% CPU
+Iteration 100 / LogL: -158219.022 / Time: 1h:23m:56s (1h:3m:32s left)
+Optimizing NNI: done in 30.7011 secs using 99.79% CPU
+Optimizing NNI: done in 27.4669 secs using 99.58% CPU
+Optimizing NNI: done in 32.5594 secs using 99.74% CPU
+Optimizing NNI: done in 34.3352 secs using 99.71% CPU
+Optimizing NNI: done in 34.7912 secs using 99.64% CPU
+Optimizing NNI: done in 32.8739 secs using 99.77% CPU
+Optimizing NNI: done in 42.7345 secs using 99.69% CPU
+Optimizing NNI: done in 35.0724 secs using 99.7% CPU
+Optimizing NNI: done in 32.2543 secs using 99.73% CPU
+Optimizing NNI: done in 33.2352 secs using 99.65% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 110: -158155.043
+Iteration 110 / LogL: -158155.043 / Time: 1h:29m:44s (1h:22m:16s left)
+Optimizing NNI: done in 30.0253 secs using 99.75% CPU
+Optimizing NNI: done in 35.0325 secs using 99.66% CPU
+Optimizing NNI: done in 31.4815 secs using 99.71% CPU
+Optimizing NNI: done in 38.3369 secs using 99.63% CPU
+Optimizing NNI: done in 37.5925 secs using 99.84% CPU
+Optimizing NNI: done in 31.7464 secs using 99.81% CPU
+Optimizing NNI: done in 35.6354 secs using 99.65% CPU
+Optimizing NNI: done in 31.561 secs using 99.8% CPU
+Optimizing NNI: done in 37.0804 secs using 99.7% CPU
+Optimizing NNI: done in 35.5022 secs using 99.67% CPU
+Iteration 120 / LogL: -158307.260 / Time: 1h:35m:34s (1h:12m:13s left)
+Optimizing NNI: done in 30.7739 secs using 99.7% CPU
+Optimizing NNI: done in 31.4563 secs using 99.7% CPU
+Optimizing NNI: done in 35.6433 secs using 99.63% CPU
+Optimizing NNI: done in 35.0662 secs using 99.61% CPU
+Optimizing NNI: done in 36.2476 secs using 99.68% CPU
+Optimizing NNI: done in 34.7539 secs using 99.59% CPU
+Optimizing NNI: done in 33.5311 secs using 99.73% CPU
+Optimizing NNI: done in 33.78 secs using 99.57% CPU
+Optimizing NNI: done in 33.9868 secs using 99.46% CPU
+Optimizing NNI: done in 35.7043 secs using 99.79% CPU
+Iteration 130 / LogL: -158163.898 / Time: 1h:41m:21s (1h:2m:49s left)
+Optimizing NNI: done in 29.1241 secs using 99.71% CPU
+Optimizing NNI: done in 33.0288 secs using 99.65% CPU
+Optimizing NNI: done in 30.6079 secs using 99.65% CPU
+Optimizing NNI: done in 32.9903 secs using 99.69% CPU
+Optimizing NNI: done in 25.4098 secs using 99.7% CPU
+Optimizing NNI: done in 39.7836 secs using 99.67% CPU
+Optimizing NNI: done in 29.1832 secs using 99.59% CPU
+Optimizing NNI: done in 31.5121 secs using 99.65% CPU
+Optimizing NNI: done in 32.2005 secs using 99.61% CPU
+Optimizing NNI: done in 30.6636 secs using 99.54% CPU
+Iteration 140 / LogL: -158168.893 / Time: 1h:46m:42s (0h:53m:42s left)
+Optimizing NNI: done in 37.9657 secs using 99.83% CPU
+Optimizing NNI: done in 32.7202 secs using 99.74% CPU
+Optimizing NNI: done in 34.7773 secs using 99.7% CPU
+Optimizing NNI: done in 42.3824 secs using 99.74% CPU
+Optimizing NNI: done in 39.0217 secs using 99.65% CPU
+Optimizing NNI: done in 31.2805 secs using 99.72% CPU
+Optimizing NNI: done in 25.4224 secs using 99.53% CPU
+Optimizing NNI: done in 33.882 secs using 99.61% CPU
+Optimizing NNI: done in 27.742 secs using 99.75% CPU
+Optimizing NNI: done in 34.0475 secs using 99.64% CPU
+Iteration 150 / LogL: -158251.900 / Time: 1h:52m:27s (0h:45m:15s left)
+Optimizing NNI: done in 38.9811 secs using 99.69% CPU
+Optimizing NNI: done in 33.7359 secs using 99.63% CPU
+Optimizing NNI: done in 30.6604 secs using 99.75% CPU
+Optimizing NNI: done in 29.2141 secs using 99.7% CPU
+Optimizing NNI: done in 31.3094 secs using 99.72% CPU
+Optimizing NNI: done in 32.1628 secs using 99.62% CPU
+Optimizing NNI: done in 38.5485 secs using 99.65% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 157: -158151.382
+Optimizing NNI: done in 30.9012 secs using 99.8% CPU
+Optimizing NNI: done in 35.8675 secs using 99.61% CPU
+Optimizing NNI: done in 41.1492 secs using 99.69% CPU
+Iteration 160 / LogL: -158286.594 / Time: 1h:58m:20s (1h:12m:9s left)
+Optimizing NNI: done in 34.3756 secs using 99.75% CPU
+Optimizing NNI: done in 33.209 secs using 99.6% CPU
+Optimizing NNI: done in 30.6922 secs using 99.74% CPU
+Optimizing NNI: done in 34.8765 secs using 99.64% CPU
+Optimizing NNI: done in 36.1189 secs using 99.66% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 165: -158150.978
+Optimizing NNI: done in 30.6334 secs using 99.75% CPU
+Optimizing NNI: done in 28.3875 secs using 99.7% CPU
+Optimizing NNI: done in 35.7472 secs using 99.63% CPU
+Optimizing NNI: done in 39.6323 secs using 99.74% CPU
+Optimizing NNI: done in 34.7587 secs using 99.7% CPU
+Iteration 170 / LogL: -158244.405 / Time: 2h:4m:10s (1h:9m:45s left)
+Optimizing NNI: done in 32.3307 secs using 99.7% CPU
+Optimizing NNI: done in 36.2606 secs using 99.68% CPU
+Optimizing NNI: done in 31.0237 secs using 99.7% CPU
+Optimizing NNI: done in 36.7602 secs using 99.7% CPU
+Optimizing NNI: done in 32.6047 secs using 99.62% CPU
+Optimizing NNI: done in 34.5758 secs using 99.57% CPU
+Optimizing NNI: done in 33.2452 secs using 99.6% CPU
+Optimizing NNI: done in 35.1004 secs using 99.6% CPU
+Optimizing NNI: done in 36.3488 secs using 99.61% CPU
+Optimizing NNI: done in 39.8298 secs using 99.63% CPU
+Iteration 180 / LogL: -158177.092 / Time: 2h:10m:4s (1h:1m:44s left)
+Optimizing NNI: done in 31.7171 secs using 99.61% CPU
+Optimizing NNI: done in 33.1926 secs using 99.64% CPU
+Optimizing NNI: done in 29.12 secs using 99.66% CPU
+Optimizing NNI: done in 36.5158 secs using 99.52% CPU
+Optimizing NNI: done in 29.1083 secs using 99.76% CPU
+Optimizing NNI: done in 32.1845 secs using 99.63% CPU
+Optimizing NNI: done in 38.4948 secs using 99.6% CPU
+Optimizing NNI: done in 36.0148 secs using 99.7% CPU
+Optimizing NNI: done in 32.4848 secs using 99.69% CPU
+Optimizing NNI: done in 33.4195 secs using 99.69% CPU
+Iteration 190 / LogL: -158204.755 / Time: 2h:15m:42s (0h:53m:49s left)
+Optimizing NNI: done in 35.2464 secs using 99.7% CPU
+Optimizing NNI: done in 31.2854 secs using 99.7% CPU
+Optimizing NNI: done in 34.5918 secs using 99.67% CPU
+Optimizing NNI: done in 33.7369 secs using 99.49% CPU
+Optimizing NNI: done in 35.2788 secs using 99.65% CPU
+Optimizing NNI: done in 33.1154 secs using 99.59% CPU
+Optimizing NNI: done in 36.1068 secs using 99.58% CPU
+Optimizing NNI: done in 38.0667 secs using 99.69% CPU
+Optimizing NNI: done in 40.4676 secs using 99.67% CPU
+Optimizing NNI: done in 33.1057 secs using 99.64% CPU
+Iteration 200 / LogL: -158241.018 / Time: 2h:21m:39s (0h:46m:15s left)
+Optimizing NNI: done in 35.5859 secs using 99.68% CPU
+Optimizing NNI: done in 33.4025 secs using 99.67% CPU
+Optimizing NNI: done in 36.064 secs using 99.74% CPU
+Optimizing NNI: done in 37.3758 secs using 99.53% CPU
+Optimizing NNI: done in 36.1698 secs using 99.72% CPU
+Optimizing NNI: done in 27.4577 secs using 99.62% CPU
+Optimizing NNI: done in 33.5931 secs using 99.84% CPU
+Optimizing NNI: done in 37.7152 secs using 99.62% CPU
+Optimizing NNI: done in 28.9504 secs using 99.68% CPU
+Optimizing NNI: done in 33.4266 secs using 99.7% CPU
+Iteration 210 / LogL: -158206.016 / Time: 2h:27m:25s (0h:38m:46s left)
+Optimizing NNI: done in 37.7153 secs using 99.55% CPU
+Optimizing NNI: done in 35.0482 secs using 99.7% CPU
+Optimizing NNI: done in 33.5243 secs using 99.65% CPU
+Optimizing NNI: done in 33.2381 secs using 99.6% CPU
+Optimizing NNI: done in 28.9719 secs using 99.65% CPU
+Optimizing NNI: done in 33.8136 secs using 99.68% CPU
+Optimizing NNI: done in 27.5448 secs using 99.67% CPU
+Optimizing NNI: done in 37.7329 secs using 99.8% CPU
+Optimizing NNI: done in 27.2353 secs using 99.75% CPU
+Optimizing NNI: done in 36.9553 secs using 99.66% CPU
+Iteration 220 / LogL: -158166.976 / Time: 2h:33m:3s (0h:31m:26s left)
+Optimizing NNI: done in 36.626 secs using 99.76% CPU
+Optimizing NNI: done in 38.0307 secs using 99.65% CPU
+Optimizing NNI: done in 33.2952 secs using 99.71% CPU
+Optimizing NNI: done in 37.3858 secs using 99.71% CPU
+Optimizing NNI: done in 33.6237 secs using 99.8% CPU
+Optimizing NNI: done in 30.0843 secs using 99.73% CPU
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 226: -158149.397
+Optimizing NNI: done in 41.5522 secs using 99.69% CPU
+Optimizing NNI: done in 28.9938 secs using 99.67% CPU
+Optimizing NNI: done in 31.1962 secs using 99.81% CPU
+Optimizing NNI: done in 36.3971 secs using 99.78% CPU
+Iteration 230 / LogL: -158200.421 / Time: 2h:39m:1s (1h:6m:38s left)
+Optimizing NNI: done in 32.193 secs using 99.7% CPU
+Optimizing NNI: done in 34.8044 secs using 99.7% CPU
+Optimizing NNI: done in 31.9865 secs using 99.74% CPU
+Optimizing NNI: done in 31.8928 secs using 99.7% CPU
+Optimizing NNI: done in 32.1241 secs using 99.66% CPU
+Optimizing NNI: done in 26.6175 secs using 99.66% CPU
+Optimizing NNI: done in 29.1974 secs using 99.64% CPU
+Optimizing NNI: done in 33.9889 secs using 99.75% CPU
+Optimizing NNI: done in 33.2791 secs using 99.58% CPU
+Optimizing NNI: done in 31.9942 secs using 99.71% CPU
+Iteration 240 / LogL: -161998.156 / Time: 2h:44m:25s (0h:59m:8s left)
+Optimizing NNI: done in 36.344 secs using 99.68% CPU
+Optimizing NNI: done in 30.3171 secs using 99.7% CPU
+Optimizing NNI: done in 28.0845 secs using 99.7% CPU
+Optimizing NNI: done in 26.5923 secs using 99.7% CPU
+Optimizing NNI: done in 35.7993 secs using 99.59% CPU
+Optimizing NNI: done in 33.9664 secs using 99.73% CPU
+Optimizing NNI: done in 33.8959 secs using 99.7% CPU
+Optimizing NNI: done in 30.3139 secs using 99.66% CPU
+Optimizing NNI: done in 29.7807 secs using 99.62% CPU
+Optimizing NNI: done in 33.587 secs using 99.59% CPU
+Iteration 250 / LogL: -158152.875 / Time: 2h:49m:50s (0h:51m:49s left)
+Optimizing NNI: done in 30.0321 secs using 99.61% CPU
+Optimizing NNI: done in 29.2787 secs using 99.78% CPU
+Optimizing NNI: done in 29.9888 secs using 99.69% CPU
+Optimizing NNI: done in 28.8456 secs using 99.72% CPU
+Optimizing NNI: done in 31.5925 secs using 99.78% CPU
+Optimizing NNI: done in 33.2548 secs using 99.72% CPU
+Optimizing NNI: done in 34.0643 secs using 99.61% CPU
+Optimizing NNI: done in 29.3518 secs using 99.57% CPU
+Optimizing NNI: done in 31.2788 secs using 99.76% CPU
+Optimizing NNI: done in 34.453 secs using 99.76% CPU
+Iteration 260 / LogL: -158150.197 / Time: 2h:55m:8s (0h:44m:36s left)
+Optimizing NNI: done in 28.3305 secs using 99.68% CPU
+Optimizing NNI: done in 38.6621 secs using 99.65% CPU
+Optimizing NNI: done in 38.1495 secs using 99.75% CPU
+Optimizing NNI: done in 34.1964 secs using 99.63% CPU
+Optimizing NNI: done in 36.7189 secs using 99.74% CPU
+Optimizing NNI: done in 39.0473 secs using 99.73% CPU
+Optimizing NNI: done in 29.2069 secs using 99.72% CPU
+Optimizing NNI: done in 37.2465 secs using 99.61% CPU
+Optimizing NNI: done in 40.4937 secs using 99.83% CPU
+Optimizing NNI: done in 31.5991 secs using 99.68% CPU
+Iteration 270 / LogL: -158170.139 / Time: 3h:1m:8s (0h:37m:41s left)
+Optimizing NNI: done in 36.6383 secs using 99.71% CPU
+Optimizing NNI: done in 37.0214 secs using 99.69% CPU
+Optimizing NNI: done in 28.3447 secs using 99.8% CPU
+Optimizing NNI: done in 29.6021 secs using 99.78% CPU
+Optimizing NNI: done in 39.1022 secs using 99.72% CPU
+Optimizing NNI: done in 31.3393 secs using 99.68% CPU
+Optimizing NNI: done in 30.7867 secs using 99.76% CPU
+Optimizing NNI: done in 33.5322 secs using 99.75% CPU
+Optimizing NNI: done in 30.0187 secs using 99.74% CPU
+Optimizing NNI: done in 31.5402 secs using 99.68% CPU
+Iteration 280 / LogL: -161894.178 / Time: 3h:6m:41s (0h:30m:46s left)
+Optimizing NNI: done in 35.0356 secs using 99.73% CPU
+Optimizing NNI: done in 36.1555 secs using 99.64% CPU
+Optimizing NNI: done in 33.4162 secs using 99.83% CPU
+Optimizing NNI: done in 32.1877 secs using 99.79% CPU
+Optimizing NNI: done in 33.6529 secs using 99.72% CPU
+Optimizing NNI: done in 31.611 secs using 99.78% CPU
+Optimizing NNI: done in 27.231 secs using 99.63% CPU
+Optimizing NNI: done in 32.1964 secs using 99.7% CPU
+Optimizing NNI: done in 36.7479 secs using 99.73% CPU
+Optimizing NNI: done in 31.2567 secs using 99.73% CPU
+Iteration 290 / LogL: -158194.441 / Time: 3h:12m:17s (0h:23m:56s left)
+Optimizing NNI: done in 28.5798 secs using 99.84% CPU
+Optimizing NNI: done in 32.7214 secs using 99.68% CPU
+Optimizing NNI: done in 39.0846 secs using 99.7% CPU
+Optimizing NNI: done in 34.1621 secs using 99.72% CPU
+Optimizing NNI: done in 35.0608 secs using 99.58% CPU
+Optimizing NNI: done in 35.6038 secs using 99.71% CPU
+Optimizing NNI: done in 32.3162 secs using 99.74% CPU
+Optimizing NNI: done in 33.3314 secs using 99.76% CPU
+Optimizing NNI: done in 35.7464 secs using 99.64% CPU
+Optimizing NNI: done in 34.2041 secs using 99.65% CPU
+Iteration 300 / LogL: -158202.003 / Time: 3h:18m:4s (0h:17m:13s left)
+Optimizing NNI: done in 36.6584 secs using 99.72% CPU
+Optimizing NNI: done in 31.2842 secs using 99.69% CPU
+Optimizing NNI: done in 34.5476 secs using 99.79% CPU
+Optimizing NNI: done in 35.7309 secs using 99.77% CPU
+Optimizing NNI: done in 36.6016 secs using 99.8% CPU
+Optimizing NNI: done in 31.7933 secs using 99.58% CPU
+Optimizing NNI: done in 37.6024 secs using 99.67% CPU
+Optimizing NNI: done in 36.1774 secs using 99.74% CPU
+Optimizing NNI: done in 35.5526 secs using 99.82% CPU
+Optimizing NNI: done in 35.8442 secs using 99.76% CPU
+Iteration 310 / LogL: -158156.156 / Time: 3h:24m:2s (0h:10m:33s left)
+Optimizing NNI: done in 34.9806 secs using 99.72% CPU
+Optimizing NNI: done in 28.3978 secs using 99.7% CPU
+Optimizing NNI: done in 30.972 secs using 99.74% CPU
+Optimizing NNI: done in 40.3918 secs using 99.73% CPU
+Optimizing NNI: done in 28.1068 secs using 99.63% CPU
+Optimizing NNI: done in 32.0634 secs using 99.76% CPU
+Optimizing NNI: done in 37.9685 secs using 99.74% CPU
+Optimizing NNI: done in 29.8073 secs using 99.68% CPU
+Optimizing NNI: done in 34.9493 secs using 99.78% CPU
+Optimizing NNI: done in 36.6509 secs using 99.64% CPU
+Iteration 320 / LogL: -158260.661 / Time: 3h:29m:42s (0h:3m:56s left)
+Optimizing NNI: done in 34.2791 secs using 99.68% CPU
+Optimizing NNI: done in 34.8613 secs using 99.56% CPU
+Optimizing NNI: done in 33.3557 secs using 99.78% CPU
+Optimizing NNI: done in 29.4191 secs using 99.72% CPU
+Optimizing NNI: done in 30.1876 secs using 99.81% CPU
+Optimizing NNI: done in 32.6583 secs using 99.65% CPU
+Optimizing NNI: done in 31.8648 secs using 99.68% CPU
+TREE SEARCH COMPLETED AFTER 327 ITERATIONS / Time: 3h:33m:33s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -158149.397
+Optimal log-likelihood: -158149.396
+Rate parameters:  A-C: 1.35868  A-G: 13.73146  A-T: 1.82222  C-G: 0.79834  C-T: 40.48692  G-T: 1.00000
+Base frequencies:  A: 0.332  C: 0.205  G: 0.253  T: 0.210
+Proportion of invariable sites: 0.490
+Gamma shape alpha: 1.538
+Parameters optimization took 1 rounds (5.005 sec)
+BEST SCORE FOUND : -158149.396
+Total tree length: 2.705
+
+Total number of iterations: 327
+CPU time used for tree search: 11173.967 sec (3h:6m:13s)
+Wall-clock time used for tree search: 11210.006 sec (3h:6m:50s)
+Total CPU time used: 12767.860 sec (3h:32m:47s)
+Total wall-clock time used: 12818.680 sec (3h:33m:38s)
+
+Analysis results written to: 
+  IQ-TREE report:                _results/s11_treebuilding/subsampled_Dengue_2_cleaned.iqtree
+  Maximum-likelihood tree:       _results/s11_treebuilding/subsampled_Dengue_2_cleaned.treefile
+  Likelihood distances:          _results/s11_treebuilding/subsampled_Dengue_2_cleaned.mldist
+  Screen log file:               _results/s11_treebuilding/subsampled_Dengue_2_cleaned.log
+
+Date and Time: Mon Oct 27 07:26:41 2025
