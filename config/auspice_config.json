@@ -19,16 +19,16 @@
       "type": "continuous"
     }
   },
-  "geo": [
+  "geo_resolutions": [
     "strain",
     "Country"
   ],
-  "defaults": {
-    "mapTriplicate": false,
-    "distanceMeasure": "num_date",
-    "geoResolution": "strain",
-    "colorBy": "num_date"
-  },  
+  "display_defaults": {
+    "map_triplicate": false,
+    "distance_measure": "num_date",
+    "geo_resolution": "strain",
+    "color_by": "num_date"
+  },
   "maintainer": [
     "Rhys Inward",
     "https://github.com/rhysinward"

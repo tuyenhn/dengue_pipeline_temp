@@ -4,4 +4,5 @@ channels:
   - bioconda
   - conda-forge
 dependencies:
+  # - nextclade=3.7.1
   - nextalign=2.14.0
